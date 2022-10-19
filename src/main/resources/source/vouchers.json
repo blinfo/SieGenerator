@@ -1,0 +1,353 @@
+[
+    {
+        "type": "representation",
+        "text": "Representation, ej avdragsgill",
+        "accounts":
+                [
+                    {
+                        "number": "6072",
+                        "amount": 928
+                    },
+                    {
+                        "number": "2640",
+                        "amount": 72
+                    },
+                    {
+                        "number": "1930",
+                        "amount": -1000
+                    }
+                ]
+    },
+    {
+        "type": "rent",
+        "text": "Lokalhyra",
+        "accounts": [
+            {
+                "number": "5010",
+                "amount": 1000
+            },
+            {
+                "number": "191*",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Kundfaktura",
+        "accounts": [
+            {
+                "number": "1511",
+                "amount": 1000
+            },
+            {
+                "number": "2611",
+                "amount": -200
+            },
+            {
+                "number": "3011",
+                "amount": -800
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Kreditfaktura till kund",
+        "accounts": [
+            {
+                "number": "3011",
+                "amount": 800
+            },
+            {
+                "number": "2611",
+                "amount": 200
+            },
+            {
+                "number": "1511",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Försäljning 25% moms",
+        "accounts": [
+            {
+                "number": "3001",
+                "amount": 800
+            }, 
+            {
+                "number": "2611",
+                "amount": 200
+            },
+            {
+                "number": "191*",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Försäljning 12% moms",
+        "accounts": [
+            {
+                "number": "3002",
+                "amount": 892.86
+            },
+            {
+                "number": "2621",
+                "amount": 107.14
+            },
+            {
+                "number": "191*",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Försäljning 6% moms",
+        "accounts": [
+            {
+                "number": "3003",
+                "amount": 943.4
+            },
+            {
+                "number": "2631",
+                "amount": 56.6
+            },
+            {
+                "number": "191*",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "purchase",
+        "text": "Varuinköp",
+        "accounts": [
+            {
+                "number": "4000",
+                "amount": 1000
+            },
+            {
+                "number": "2641",
+                "amount": -200
+            },
+            {
+                "number": "1930",
+                "amount": -800
+            }
+        ]
+    },
+    {
+        "type": "purchase",
+        "text": "Materialinköp",
+        "accounts": [
+            {
+                "number": "4000",
+                "amount": 800
+            },
+            {
+                "number": "2641",
+                "amount": 200
+            },
+            {
+                "number": "2440",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "purchase",
+        "text": "Kreditfaktura från leverantör",
+        "accounts": [
+            {
+                "number": "2440",
+                "amount": 1000
+            },
+            {
+                "number": "2641",
+                "amount": -200
+            },
+            {
+                "number": "4000",
+                "amount": -800
+            }
+        ]
+    },
+    {
+        "companyType": "sole-proprietorship",
+        "type": "withdrawal",
+        "text": "Uttag ur verksamheten",
+        "accounts": [
+            { 
+                "number": "2013",
+                "amount": 1000
+            },
+            {
+                "number": "1930",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "companyType": "sole-proprietorship",
+        "type": "deposit",
+        "text": "Egen insättning",
+        "accounts": [
+            { 
+                "number": "1930",
+                "amount": 1000
+            },
+            {
+                "number": "2018",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Löneutbetalning",
+        "accounts": [
+            { 
+                "number": "7010",
+                "amount": 680
+            },
+            {
+                "number": "2710",
+                "amount": -350
+            },
+            {
+                "number": "1930",
+                "amount": -330
+            },
+            {
+                "number": "7510",
+                "amount": 320
+            },
+            {
+                "number": "2730",
+                "amount": -320
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Fackföreningsavgift",
+        "accounts": [
+            { 
+                "number": "2794",
+                "amount": 1000
+            },
+            {
+                "number": "1920",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Privat sjukvårdsförsäkring",
+        "accounts": [
+            { 
+                "number": "7620",
+                "amount": 1000
+            },
+            {
+                "number": "2440",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Rehabilitering",
+        "accounts": [
+            { 
+                "number": "7625",
+                "amount": 800
+            },
+            { 
+                "number": "2640",
+                "amount": 200
+            },
+            {
+                "number": "2440",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Kurs",
+        "accounts": [
+            { 
+                "number": "7610",
+                "amount": 800
+            },
+            { 
+                "number": "2640",
+                "amount": 200
+            },
+            {
+                "number": "2440",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Kurslitteratur",
+        "accounts": [
+            { 
+                "number": "7610",
+                "amount": 943.4
+            },
+            { 
+                "number": "2640",
+                "amount": 56.6
+            },
+            {
+                "number": "2440",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Personalfest 10 personer",
+        "accounts": [
+            { 
+                "number": "7632",
+                "amount": 5990
+            },
+            { 
+                "number": "2640",
+                "amount": 460
+            },
+            {
+                "number": "2440",
+                "amount": -6450
+            }
+        ]
+    },
+    {
+        "type": "employee",
+        "text": "Arbetsgivardeklaration",
+        "accounts": [
+            {
+                "number": "2440",
+                "amount": 522.20
+            },
+            {
+                "number": "2641",
+                "amount": 477.80
+            },
+            {
+                "number": "1630",
+                "amount": -1000
+            }
+        ]
+    }
+]

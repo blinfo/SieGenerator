@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE accounting-plan PUBLIC "-//BLINFO.SE//DTD ACCOUNTING-PLAN 1.0//SV" "http://docs.blinfo.se/DTD/AccountingPlan/1.0/accounting-plan.dtd">
+<accounting-plan label="BAS 2016" 
+                 xmlns="http://docs.blinfo.se/Schema/AccountingPlan/1.0" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                 xsi:schemaLocation="http://docs.blinfo.se/Schema/AccountingPlan/1.0 
+    http://docs.blinfo.se/Schema/AccountingPlan/1.0/accounting-plan.xsd">
+    <comments>
+Redovisningshandboken 2013 kan beställas av:
+Norstedts Juridik AB, 106 47 Stockholm
+Telefon: 08-690 91 00
+E-post: kundservice@nj.se
+www.nj.se
+
+Kontoplanen nedan är baserad på bas 2016, men med några ändringar 
+gjorda för sie generatorn. (Exempelvis några konton i 19-gruppen.)
+    </comments>
+    <account-class number="1" label="Tillgångar">
+        <account-group number="0" label="Immateriella anläggningstillgångar">
+            <account number="10" label="Utvecklingsutgifter"/>
+            <account number="11" label="Balanserade utgifter för forskning och utveckling"/>
+            <account number="12" label="Balanserade utgifter för programvaror"/>
+            <account number="18" label="Ackumulerade nedskrivningar på balanserade utgifter"/>
+            <account number="19" label="Ackumulerade avskrivningar på balanserade utgifter"/>
+            <account number="20" label="Koncessioner m.m."/>
+            <account number="28" label="Ackumulerade nedskrivningar på koncessioner m.m."/>
+            <account number="29" label="Ackumulerade avskrivningar på koncessioner m.m."/>
+            <account number="30" label="Patent"/>
+            <account number="38" label="Ackumulerade nedskrivningar på patent"/>
+            <account number="39" label="Ackumulerade avskrivningar på patent"/>
+            <account number="40" label="Licenser"/>
+            <account number="48" label="Ackumulerade nedskrivningar på licenser"/>
+            <account number="49" label="Ackumulerade avskrivningar på licenser"/>
+            <account number="50" label="Varumärken"/>
+            <account number="58" label="Ackumulerade nedskrivningar på varumärken"/>
+            <account number="59" label="Ackumulerade avskrivningar på varumärken"/>
+            <account number="60" label="Hyresrätter, tomträtter och liknande"/>
+            <account number="68" label="Ackumulerade nedskrivningar på hyresrätter, tomträtter och liknande"/>
+            <account number="69" label="Ackumulerade avskrivningar på hyresrätter, tomträtter och liknande"/>
+            <account number="70" label="Goodwill"/>
+            <account number="78" label="Ackumulerade nedskrivningar på goodwill"/>
+            <account number="79" label="Ackumulerade avskrivningar på goodwill"/>
+            <account number="80" label="Pågående projekt och förskott för immateriella anläggningstillgångar"/>
+            <account number="81" label="Pågående projekt för immateriella anläggningstillgångar"/>
+            <account number="88" label="Förskott för immateriella anläggningstillgångar"/>
+        </account-group>
+        <account-group number="1" label="Byggnader och mark">
+            <account number="10" label="Byggnader"/>
+            <account number="11" label="Byggnader på egen mark"/>
+            <account number="12" label="Byggnader på annans mark"/>
+            <account number="18" label="Ackumulerade nedskrivningar på byggnader"/>
+            <account number="19" label="Ackumulerade avskrivningar på byggnader"/>
+            <account number="20" label="Förbättringsutgifter på annans fastighet"/>
+            <account number="29" label="Ackumulerade avskrivningar på förbättringsutgifter på annans fastighet"/>
+            <account number="30" label="Mark"/>
+            <account number="40" label="Tomter och obebyggda markområden"/>
+            <account number="50" label="Markanläggningar"/>
+            <account number="58" label="Ackumulerade nedskrivningar på markanläggningar"/>
+            <account number="59" label="Ackumulerade avskrivningar på markanläggningar"/>
+            <account number="80" label="Pågående nyanläggningar och förskott för byggnader och mark"/>
+            <account number="81" label="Pågående ny-, till- och ombyggnad"/>
+            <account number="88" label="Förskott för byggnader och mark"/>
+        </account-group>
+        <account-group number="2" label="Maskiner och inventarier">
+            <account number="10" label="Maskiner och andra tekniska anläggningar"/>
+            <account number="11" label="Maskiner"/>
+            <account number="13" label="Andra tekniska anläggningar"/>
+            <account number="18" label="Ackumulerade nedskrivningar på maskiner och andra tekniska anläggningar"/>
+            <account number="19" label="Ackumulerade avskrivningar på maskiner och andra tekniska anläggningar"/>
+            <account number="20" label="Inventarier och verktyg"/>
+            <account number="21" label="Inventarier"/>
+            <account number="22" label="Byggnadsinventarier"/>
+            <account number="23" label="Markinventarier"/>
+            <account number="25" label="Verktyg"/>
+            <account number="28" label="Ackumulerade nedskrivningar på inventarier och verktyg"/>
+            <account number="29" label="Ackumulerade avskrivningar på inventarier och verktyg"/>
+            <account number="30" label="Installationer"/>
+            <account number="31" label="Installationer på egen fastighet"/>
+            <account number="32" label="Installationer på annans fastig het"/>
+            <account number="38" label="Ackumulerade nedskrivningar på installationer"/>
+            <account number="39" label="Ackumulerade avskrivningar på installationer"/>
+            <account number="40" label="Bilar och andra transportmedel"/>
+            <account number="41" label="Personbilar"/>
+            <account number="42" label="Lastbilar"/>
+            <account number="43" label="Truckar"/>
+            <account number="44" label="Arbetsmaskiner"/>
+            <account number="45" label="Traktorer"/>
+            <account number="46" label="Motorcyklar, mopeder och skotrar"/>
+            <account number="47" label="Båtar, flygplan och helikoptrar"/>
+            <account number="48" label="Ackumulerade nedskrivningar på bilar och andra transportmedel"/>
+            <account number="49" label="Ackumulerade avskrivningar på bilar och andra transportmedel"/>
+            <account number="50" label="Datorer"/>
+            <account number="51" label="Datorer, företaget"/>
+            <account number="57" label="Datorer, personal"/>
+            <account number="58" label="Ackumulerade nedskrivningar på datorer"/>
+            <account number="59" label="Ackumulerade avskrivningar på datorer"/>
+            <account number="60" label="Leasade tillgångar"/>
+            <account number="69" label="Ackumulerade avskrivningar på leasade tillgångar"/>
+            <account number="80" label="Pågående nyanläggningar och förskott för maskiner och inventarier"/>
+            <account number="81" label="Pågående nyanläggningar, maskiner och inventarier"/>
+            <account number="88" label="Förskott för maskiner och inventarier"/>
+            <account number="90" label="Övriga materiella anläggningstillgångar"/>
+            <account number="91" label="Konst och liknande tillgångar"/>
+            <account number="92" label="Djur som klassificeras som anläggningstillgång"/>
+            <account number="98" label="Ackumulerade nedskrivningar på övriga materiella anläggningstillgångar"/>
+            <account number="99" label="Ackumulerade avskrivningar på övriga materiella anläggningstillgångar"/>
+        </account-group>
+        <account-group number="3" label="Finansiella anläggningstillgångar">
+            <account number="10" label="Andelar i koncernföretag"/>
+            <account number="11" label="Aktier i noterade svenska koncernföretag"/>
+            <account number="12" label="Aktier i onoterade svenska koncernföretag"/>
+            <account number="13" label="Aktier i noterade utländska koncernföretag"/>
+            <account number="14" label="Aktier i onoterade utländska koncernföretag"/>
+            <account number="16" label="Övriga andelar i koncernföretag"/>
+            <account number="18" label="Ackumulerade nedskrivningar av andelar i koncernföretag"/>
+            <account number="20" label="Långfristiga fordringar hos koncernföretag"/>
+            <account number="21" label="Långfristiga fordringar hos moderföretag"/>
+            <account number="22" label="Långfristiga fordringar hos dotterföretag"/>
+            <account number="23" label="Långfristiga fordringar hos andra koncernföretag"/>
+            <account number="28" label="Ackumulerade nedskrivningar av långfristiga fordringar hos koncernföretag"/>
+            <account number="30" label="Andelar i intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="31" label="Andelar i intresseföretag"/>
+            <account number="32" label="Ackumulerade nedskrivningar av andelar i intresseföretag"/>
+            <account number="33" label="Andelar i gemensamt styrda företag"/>
+            <account number="34" label="Ackumulerade nedskrivningar av andelar i gemensamt styrda företag"/>
+            <account number="36" label="Andelar i övriga företag som det finns ett ägarintresse i"/>
+            <account number="37" label="Ackumulerade nedskrivningar av andelar i övriga företag som det finns ett ägarintresse i"/>
+            <account number="38" label="Ackumulerade nedskrivningar av andelar i intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="40" label="Långfristiga fordringar hos intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="41" label="Långfristiga fordringar hos intresseföretag"/>
+            <account number="42" label="Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag"/>
+            <account number="43" label="Långfristiga fordringar hos gemensamt styrda företag"/>
+            <account number="44" label="Ackumulerade nedskrivningar av långfristiga fordringar hos gemensamt styrda företag"/>
+            <account number="46" label="Långfristiga fordringar hos övriga företag som det finns ett ägarintresse i"/>
+            <account number="47" label="Ackumulerade nedskrivningar av långfristiga fordringar hos övriga företag som det finns ett ägarintresse i"/>
+            <account number="48" label="Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="50" label="Andelar och värdepapper i andra företag"/>
+            <account number="51" label="Andelar i börsnoterade företag"/>
+            <account number="52" label="Andra andelar"/>
+            <account number="53" label="Andelar i bostadsrättsföreningar"/>
+            <account number="54" label="Obligationer"/>
+            <account number="56" label="Andelar i ekonomiska föreningar, övriga företag"/>
+            <account number="57" label="Andelar i handelsbolag, andra företag"/>
+            <account number="58" label="Ackumulerade nedskrivningar av andra andelar och värdepapper"/>
+            <account number="60" label="Lån till delägare eller närstående enligt ABL, långfristig del"/>
+            <account number="69" label="Ackumulerade nedskrivningar av lån till delägare eller närstående enligt ABL, långfristig del"/>
+            <account number="70" label="Kundfordringar hos intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="71" label="Kundfordringar hos intresseföretag"/>
+            <account number="72" label="Kundfordringar hos gemensamt styrda företag"/>
+            <account number="73" label="Kundfordringar hos övriga företag som det finns ett ägarintresse i"/>
+            <account number="80" label="Andra långfristiga fordringar"/>
+            <account number="81" label="Långfristiga reversfordringar"/>
+            <account number="82" label="Långfristiga fordringar hos anställda"/>
+            <account number="83" label="Lämnade depositioner, långfristiga"/>
+            <account number="84" label="Derivat"/>
+            <account number="85" label="Värde av kapitalförsäkring"/>
+            <account number="86" label="Förutbetalda leasingavgifter, långfristig del"/>
+            <account number="87" label="Långfristiga kontraktsfordringar"/>
+            <account number="88" label="Långfristiga kundfordringar"/>
+            <account number="89" label="Ackumulerade nedskrivningar av andra långfristiga fordringar"/>
+        </account-group>
+        <account-group number="4" label="Lager, produkter i arbete och pågående arbeten">
+            <account number="10" label="Lager av råvaror"/>
+            <account number="19" label="Förändring av lager av råvaror"/>
+            <account number="20" label="Lager av tillsatsmaterial och förnödenheter"/>
+            <account number="29" label="Förändring av lager av tillsatsmaterial och förnödenheter"/>
+            <account number="30" label="Lager av halvfabrikat"/>
+            <account number="31" label="Lager av köpta halvfabrikat"/>
+            <account number="32" label="Lager av egentillverkade halvfabrikat"/>
+            <account number="38" label="Förändring av lager av köpta halvfabrikat"/>
+            <account number="39" label="Förändring av lager av egentillverkade halvfabrikat"/>
+            <account number="40" label="Produkter i arbete"/>
+            <account number="49" label="Förändring av produkter i arbete"/>
+            <account number="50" label="Lager av färdiga varor"/>
+            <account number="59" label="Förändring av lager av färdiga varor"/>
+            <account number="60" label="Lager av handelsvaror"/>
+            <account number="65" label="Lager av varor VMB"/>
+            <account number="66" label="Nedskrivning av varor VMB"/>
+            <account number="67" label="Lager av varor VMB förenklad"/>
+            <account number="69" label="Förändring av lager av handelsvaror"/>
+            <account number="70" label="Pågående arbeten"/>
+            <account number="71" label="Pågående arbeten, nedlagda kostnader"/>
+            <account number="78" label="Pågående arbeten, fakturering"/>
+            <account number="79" label="Förändring av pågående arbeten"/>
+            <account number="80" label="Förskott för varor och tjänster"/>
+            <account number="81" label="Remburser"/>
+            <account number="89" label="Övriga förskott till leverantörer"/>
+            <account number="90" label="Övriga lagertillgångar"/>
+            <account number="91" label="Lager av värdepapper"/>
+            <account number="92" label="Lager av fastigheter"/>
+            <account number="93" label="Djur som klassificeras som omsättningstillgång"/>
+        </account-group>
+        <account-group number="5" label="Kundfordringar">
+            <account number="10" label="Kundfordringar"/>
+            <account number="11" label="Kundfordringar"/>
+            <account number="12" label="Belånade kundfordringar (factoring)"/>
+            <account number="13" label="Kundfordringar - delad faktura"/>
+            <account number="15" label="Osäkra kundfordringar"/>
+            <account number="16" label="Tvistiga kundfordringar"/>
+            <account number="18" label="Ej reskontraförda kundfordringar"/>
+            <account number="19" label="Nedskrivning av kundfordringar"/>
+            <account number="20" label="Växelfordringar"/>
+            <account number="25" label="Osäkra växelfordringar"/>
+            <account number="29" label="Nedskrivning av växelfordringar"/>
+            <account number="30" label="Kontraktsfordringar"/>
+            <account number="31" label="Kontraktsfordringar"/>
+            <account number="32" label="Belånade kontraktsfordringar"/>
+            <account number="35" label="Osäkra kontraktsfordringar"/>
+            <account number="36" label="Tvistiga kontraktsfordringar"/>
+            <account number="39" label="Nedskrivning av kontraktsfordringar"/>
+            <account number="50" label="Konsignationsfordringar"/>
+            <account number="60" label="Kundfordringar hos koncernföretag"/>
+            <account number="61" label="Kundfordringar hos moderföretag"/>
+            <account number="62" label="Kundfordringar hos dotterföretag"/>
+            <account number="63" label="Kundfordringar hos andra koncernföretag"/>
+            <account number="65" label="Osäkra kundfordringar hos koncernföretag"/>
+            <account number="68" label="Ej reskontraförda kundfordringar hos koncernföretag"/>
+            <account number="69" label="Nedskrivning av kundfordringar hos koncernföretag"/>
+            <account number="70" label="Kundfordringar hos intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="71" label="Kundfordringar hos intresseföretag"/>
+            <account number="72" label="Kundfordringar hos gemensamt styrda företag"/>
+            <account number="73" label="Kundfordringar hos övriga företag som det finns ett ägarintresse i"/>
+            <account number="75" label="Osäkra kundfordringar hos intresseföretag"/>
+            <account number="78" label="Ej reskontraförda kundfordringar hos intresseföretag"/>
+            <account number="79" label="Nedskrivning av kundfordringar hos intresseföretag"/>
+            <account number="80" label="Fordringar för kontokort och kuponger"/>
+        </account-group>
+        <account-group number="6" label="Övriga kortfristiga fordringar">
+            <account number="10" label="Kortfristiga fordringar hos anställda"/>
+            <account number="11" label="Reseförskott"/>
+            <account number="12" label="Kassaförskott"/>
+            <account number="13" label="Övriga förskott"/>
+            <account number="14" label="Tillfälliga lån till anställda"/>
+            <account number="19" label="Övriga fordringar hos anställda"/>
+            <account number="20" label="Upparbetad men ej fakturerad intäkt"/>
+            <account number="30" label="Avräkning för skatter och avgifter (skattekonto)"/>
+            <account number="40" label="Skattefordringar"/>
+            <account number="50" label="Momsfordran"/>
+            <account number="60" label="Kortfristiga fordringar hos koncernföretag"/>
+            <account number="61" label="Kortfristiga fordringar hos moderföretag"/>
+            <account number="62" label="Kortfristiga fordringar hos dotterföretag"/>
+            <account number="63" label="Kortfristiga fordringar hos andra koncernföretag"/>
+            <account number="70" label="Kortfristiga fordringar hos intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="71" label="Kortfristiga fordringar hos intresseföretag"/>
+            <account number="72" label="Kortfristiga fordringar hos gemensamt styrda företag"/>
+            <account number="73" label="Kortfristiga fordringar hos övriga företag som det finns ett ägarintresse i"/>
+            <account number="80" label="Andra kortfristiga fordringar"/>
+            <account number="81" label="Utlägg för kunder"/>
+            <account number="82" label="Kortfristiga lånefordringar"/>
+            <account number="83" label="Derivat"/>
+            <account number="84" label="Kortfristiga fordringar hos leverantörer"/>
+            <account number="85" label="Kortfristiga fordringar hos delägare eller närstående enligt ABL"/>
+            <account number="87" label="Kortfristig del av långfristiga fordringar"/>
+            <account number="88" label="Fordran arbetsmarknadsförsäkringar"/>
+            <account number="89" label="Övriga kortfristiga fordringar"/>
+            <account number="90" label="Fordringar för tecknat men ej inbetalt aktiekapital"/>
+        </account-group>
+        <account-group number="7" label="Förutbetalda kostnader och upplupna intäkter">
+            <account number="10" label="Förutbetalda hyreskostnader"/>
+            <account number="20" label="Förutbetalda leasingavgifter, kortfristig del"/>
+            <account number="30" label="Förutbetalda försäkringspremier"/>
+            <account number="40" label="Förutbetalda räntekostnader"/>
+            <account number="50" label="Upplupna hyresintäkter"/>
+            <account number="60" label="Upplupna ränteintäkter"/>
+            <account number="70" label="Tillgångar av kostnadsnatur"/>
+            <account number="80" label="Upplupna avtalsintäkter"/>
+            <account number="90" label="Övriga förutbetalda kostnader och upplupna intäkter"/>
+        </account-group>
+        <account-group number="8" label="Kortfristiga placeringar">
+            <account number="10" label="Andelar i börsnoterade företag"/>
+            <account number="20" label="Obligationer"/>
+            <account number="30" label="Konvertibla skuldebrev"/>
+            <account number="60" label="Andelar i koncernföretag"/>
+            <account number="69" label="Nedskrivning av andelar i koncernföretag"/>
+            <account number="80" label="Andra kortfristiga placeringar"/>
+            <account number="86" label="Derivat"/>
+            <account number="89" label="Andelar i övriga företag"/>
+            <account number="90" label="Nedskrivning av kortfristiga placeringar"/>
+        </account-group>
+        <account-group number="9" label="Kassa och bank">
+            <account number="10" label="Kassa"/>
+            <account number="11" label="Huvudkassa"/>
+            <account number="12" label="Kassa 2"/>
+            <account number="13" label="Kassa 3"/>
+            <account number="20" label="PlusGiro"/>
+            <account number="25" label="Swish"/>
+            <account number="30" label="Bank"/>
+            <account number="31" label="Kort"/>
+            <account number="32" label="Kort 2"/>
+            <account number="40" label="Defaultkonto"/>
+            <account number="50" label="Bankcertifikat"/>
+            <account number="60" label="Koncernkonto moderföretag"/>
+            <account number="70" label="Särskilda bankkonton"/>
+            <account number="72" label="Upphovsmannakonto"/>
+            <account number="73" label="Skogskonto"/>
+            <account number="74" label="Spärrade bankmedel"/>
+            <account number="79" label="Övriga särskilda bankkonton"/>
+            <account number="80" label="Valutakonton"/>
+            <account number="90" label="Redovisningsmedel"/>
+        </account-group>
+    </account-class>
+    <account-class number="2" label="Eget kapital och skulder">
+        <account-group number="0" label="Eget kapital">
+            <account number="10" label="Eget kapital, delägare 1"/>
+            <account number="11" label="Egna varuuttag"/>
+            <account number="13" label="Övriga egna uttag"/>
+            <account number="17" label="Årets kapitaltillskott"/>
+            <account number="18" label="Övriga egna insättningar"/>
+            <account number="19" label="Årets resultat, delägare 1"/>
+            <account number="20" label="Eget kapital, delägare 2"/>
+            <account number="30" label="Eget kapital, delägare 3"/>
+            <account number="40" label="Eget kapital, delägare 4"/>
+            <account number="50" label="Avsättning till expansionsfond"/>
+            <account number="60" label="Eget kapital i ideella föreningar, stiftelser och registrerade trossamfund"/>
+            <account number="61" label="Eget kapital/stiftelsekapital/grundkapital"/>
+            <account number="65" label="Förändring i fond för verkligt värde"/>
+            <account number="66" label="Värdesäkringsfond"/>
+            <account number="67" label="Balanserad vinst eller förlust/balanserat kapital"/>
+            <account number="68" label="Vinst eller förlust från föregående år"/>
+            <account number="69" label="Årets resultat"/>
+            <account number="70" label="Ändamålsbestämda medel"/>
+            <account number="71" label="Ändamål 1"/>
+            <account number="72" label="Ändamål 2"/>
+            <account number="80" label="Bundet eget kapital"/>
+            <account number="81" label="Aktiekapital"/>
+            <account number="82" label="Ej registrerat aktiekapital"/>
+            <account number="83" label="Medlemsinsatser"/>
+            <account number="84" label="Förlagsinsatser"/>
+            <account number="85" label="Uppskrivningsfond"/>
+            <account number="86" label="Reservfond"/>
+            <account number="87" label="Insatsemission"/>
+            <account number="88" label="Fond för yttre underhåll"/>
+            <account number="89" label="Fond för utvecklingsutgifter"/>
+            <account number="90" label="Fritt eget kapital"/>
+            <account number="91" label="Balanserad vinst eller förlust"/>
+            <account number="92" label="Mottagna/lämnade koncernbidrag"/>
+            <account number="93" label="Erhållna aktieägartillskott"/>
+            <account number="94" label="Egna aktier"/>
+            <account number="95" label="Fusionsresultat"/>
+            <account number="96" label="Fond för verkligt värde"/>
+            <account number="97" label="Överkursfond"/>
+            <account number="98" label="Vinst eller förlust från föregående år"/>
+            <account number="99" label="Årets resultat"/>
+        </account-group>
+        <account-group number="1" label="Obeskattade reserver">
+            <account number="10" label="Periodiseringsfond vid 2010 års taxering"/>
+            <account number="11" label="Periodiseringsfond vid 2011 års taxering"/>
+            <account number="12" label="Periodiseringsfond vid 2012 års taxering"/>
+            <account number="13" label="Periodiseringsfond vid 2013 års taxering"/>
+            <account number="20" label="Periodiseringsfonder"/>
+            <account number="23" label="Periodiseringsfond 2013"/>
+            <account number="24" label="Periodiseringsfond 2014"/>
+            <account number="25" label="Periodiseringsfond 2015"/>
+            <account number="26" label="Periodiseringsfond 2016"/>
+            <account number="27" label="Periodiseringsfond 2017"/>
+            <account number="28" label="Periodiseringsfond 2018"/>
+            <account number="29" label="Periodiseringsfond 2019"/>
+            <account number="30" label="Periodiseringsfond 2020 - nr 2"/>
+            <account number="31" label="Periodiseringsfond 2021 - nr 2"/>
+            <account number="32" label="Periodiseringsfond 2022 - nr 2"/>
+            <account number="33" label="Periodiseringsfond 2023 - nr 2"/>
+            <account number="34" label="Periodiseringsfond 2024 - nr 2"/>
+            <account number="35" label="Periodiseringsfond 2015 - nr 2"/>
+            <account number="36" label="Periodiseringsfond 2016 - nr 2"/>
+            <account number="37" label="Periodiseringsfond 2017 - nr 2"/>
+            <account number="38" label="Periodiseringsfond 2018 - nr 2"/>
+            <account number="39" label="Periodiseringsfond 2019 - nr 2"/>
+            <account number="50" label="Ackumulerade överavskrivningar"/>
+            <account number="51" label="Ackumulerade överavskrivningar på immateriella anläggningstillgångar"/>
+            <account number="52" label="Ackumulerade överavskrivningar på byggnader och markanläggningar"/>
+            <account number="53" label="Ackumulerade överavskrivningar på maskiner och inventarier"/>
+            <account number="60" label="Ersättningsfond"/>
+            <account number="61" label="Ersättningsfond maskiner och inventarier"/>
+            <account number="62" label="Ersättningsfond byggnader och markanläggningar"/>
+            <account number="63" label="Ersättningsfond mark"/>
+            <account number="64" label="Ersättningsfond för djurlager i jordbruk och renskötsel"/>
+            <account number="80" label="Obeskattade intäkter"/>
+            <account number="81" label="Obeskattade upphovsmannaintäkter"/>
+            <account number="85" label="Obeskattade skogsintäkter"/>
+            <account number="90" label="Övriga obeskattade reserver"/>
+            <account number="96" label="Lagerreserv"/>
+            <account number="99" label="Övriga obeskattade reserver"/>
+        </account-group>
+        <account-group number="2" label="Avsättningar">
+            <account number="10" label="Avsättningar för pensioner enligt tryggandelagen"/>
+            <account number="20" label="Avsättningar för garantier"/>
+            <account number="30" label="Övriga avsättningar för pensioner och liknande förpliktelser"/>
+            <account number="40" label="Avsättningar för uppskjutna skatter"/>
+            <account number="50" label="Övriga avsättningar för skatter"/>
+            <account number="52" label="Avsättningar för tvistiga skatter"/>
+            <account number="53" label="Avsättningar särskild löneskatt, deklarationspost"/>
+            <account number="90" label="Övriga avsättningar"/>
+        </account-group>
+        <account-group number="3" label="Långfristiga skulder">
+            <account number="10" label="Obligations- och förlagslån"/>
+            <account number="20" label="Konvertibla lån och liknande"/>
+            <account number="21" label="Konvertibla lån"/>
+            <account number="22" label="Lån förenade med optionsrätt"/>
+            <account number="23" label="Vinstandelslån"/>
+            <account number="24" label="Kapitalandelslån"/>
+            <account number="30" label="Checkräkningskredit"/>
+            <account number="31" label="Utnyttjad checkräkningskredit 1"/>
+            <account number="32" label="Utnyttjad checkräkningskredit 2"/>
+            <account number="35" label="Beviljad checkräkningskredit 1"/>
+            <account number="36" label="Beviljad checkräkningskredit 2"/>
+            <account number="40" label="Byggnadskreditiv"/>
+            <account number="50" label="Andra långfristiga skulder till kreditinstitut"/>
+            <account number="51" label="Fastighetslån, långfristig del"/>
+            <account number="55" label="Långfristiga lån i utländsk valuta från kreditinstitut"/>
+            <account number="59" label="Övriga långfristiga lån från kreditinstitut"/>
+            <account number="60" label="Långfristiga skulder till koncernföretag"/>
+            <account number="61" label="Långfristiga skulder till moderföretag"/>
+            <account number="62" label="Långfristiga skulder till dotterföretag"/>
+            <account number="63" label="Långfristiga skulder till andra koncernföretag"/>
+            <account number="70" label="Långfristiga skulder till intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="71" label="Långfristiga skulder till intresseföretag"/>
+            <account number="72" label="Långfristiga skulder till gemensamt styrda företag"/>
+            <account number="73" label="Långfristiga skulder till övriga företag som det finns ett ägarintresse i"/>
+            <account number="90" label="Övriga långfristiga skulder"/>
+            <account number="91" label="Avbetalningskontrakt, långfristig del"/>
+            <account number="92" label="Villkorliga långfristiga skulder"/>
+            <account number="93" label="Lån från närstående personer, långfristig del"/>
+            <account number="94" label="Långfristiga leverantörskrediter"/>
+            <account number="95" label="Andra långfristiga lån i utländsk valuta"/>
+            <account number="96" label="Derivat"/>
+            <account number="97" label="Mottagna depositioner, långfristiga"/>
+            <account number="99" label="Övriga långfristiga skulder"/>
+        </account-group>
+        <account-group number="4" label="Kortfristiga skulder till kreditinstitut, kunder och leverantörer">
+            <account number="10" label="Andra kortfristiga låneskulder till kreditinstitut"/>
+            <account number="11" label="Kortfristiga lån från kreditinstitut"/>
+            <account number="17" label="Kortfristig del av långfristiga skulder till kreditinstitut"/>
+            <account number="19" label="Övriga kortfristiga skulder till kreditinstitut"/>
+            <account number="20" label="Förskott från kunder"/>
+            <account number="21" label="Ej inlösta presentkort"/>
+            <account number="29" label="Övriga förskott från kunder"/>
+            <account number="30" label="Pågående arbeten"/>
+            <account number="31" label="Pågående arbeten, fakturering"/>
+            <account number="38" label="Pågående arbeten, nedlagda kostnader"/>
+            <account number="39" label="Beräknad förändring av pågående arbeten"/>
+            <account number="40" label="Leverantörsskulder"/>
+            <account number="41" label="Leverantörsskulder"/>
+            <account number="43" label="Konsignationsskulder"/>
+            <account number="45" label="Tvistiga leverantörsskulder"/>
+            <account number="48" label="Ej reskontraförda leverantörsskulder"/>
+            <account number="50" label="Fakturerad men ej upparbetad intäkt"/>
+            <account number="60" label="Leverantörsskulder till koncernföretag"/>
+            <account number="61" label="Leverantörsskulder till moderföretag"/>
+            <account number="62" label="Leverantörsskulder till dotterföretag"/>
+            <account number="63" label="Leverantörsskulder till andra koncernföretag"/>
+            <account number="70" label="Leverantörsskulder till intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="71" label="Leverantörsskulder till intresseföretag"/>
+            <account number="72" label="Leverantörsskulder till gemensamt styrda företag"/>
+            <account number="73" label="Leverantörsskulder till övriga företag som det finns ett ägarintresse i"/>
+            <account number="80" label="Checkräkningskredit, kortfristig"/>
+            <account number="90" label="Övriga kortfristiga skulder till kreditinstitut, kunder och leverantörer"/>
+            <account number="91" label="Avräkning spelarrangörer"/>
+            <account number="92" label="Växelskulder"/>
+            <account number="99" label="Andra övriga kortfristiga skulder"/>
+        </account-group>
+        <account-group number="5" label="Skatteskulder">
+            <account number="10" label="Skatteskulder"/>
+            <account number="12" label="Beräknad inkomstskatt"/>
+            <account number="13" label="Beräknad fastighetsskatt/fastighetsavgift"/>
+            <account number="14" label="Beräknad särskild löneskatt på pensionskostnader"/>
+            <account number="15" label="Beräknad avkastningsskatt"/>
+            <account number="16" label="Moms"/>
+            <account number="17" label="Beräknad utländsk skatt"/>
+            <account number="18" label="Betald F-skatt"/>
+        </account-group>
+        <account-group number="6" label="Moms och särskilda punktskatter">
+            <account number="10" label="Utgående moms, 25%"/>
+            <account number="11" label="Utgående moms på försäljning inom Sverige, 25%"/>
+            <account number="12" label="Utgående moms på egna uttag, 25%"/>
+            <account number="13" label="Utgående moms för uthyrning, 25%"/>
+            <account number="14" label="Utgående moms omvänd skattskyldighet, 25%"/>
+            <account number="15" label="Utgående moms import av varor, 25%"/>
+            <account number="16" label="Utgående moms VMB 25%"/>
+            <account number="18" label="Vilande utgående moms, 25%"/>
+            <account number="20" label="Utgående moms, 12%"/>
+            <account number="21" label="Utgående moms på försäljning inom Sverige, 12%"/>
+            <account number="22" label="Utgående moms på egna uttag, 12%"/>
+            <account number="23" label="Utgående moms för uthyrning, 12%"/>
+            <account number="24" label="Utgående moms omvänd skattskyldighet, 12%"/>
+            <account number="25" label="Utgående moms import av varor, 12%"/>
+            <account number="26" label="Utgående moms VMB 12%"/>
+            <account number="28" label="Vilande utgående moms, 12%"/>
+            <account number="30" label="Utgående moms, 6%"/>
+            <account number="31" label="Utgående moms på försäljning inom Sverige, 6%"/>
+            <account number="32" label="Utgående moms på egna uttag, 6%"/>
+            <account number="33" label="Utgående moms för uthyrning, 6%"/>
+            <account number="34" label="Utgående moms omvänd skattskyldighet, 6%"/>
+            <account number="35" label="Utgående moms import av varor, 6%"/>
+            <account number="36" label="Utgående moms VMB 6%"/>
+            <account number="38" label="Vilande utgående moms, 6%"/>
+            <account number="40" label="Ingående moms"/>
+            <account number="41" label="Debiterad ingående moms"/>
+            <account number="42" label="Debiterad ingående moms i anslutning till frivillig skattskyldighet"/>
+            <account number="45" label="Beräknad ingående moms på förvärv från utlandet"/>
+            <account number="46" label="Ingående moms på uthyrning"/>
+            <account number="47" label="Ingående moms omvänd skattskyldighet varor och tjänster i Sverige"/>
+            <account number="48" label="Vilande ingående moms"/>
+            <account number="49" label="Ingående moms, blandad verksamhet"/>
+            <account number="50" label="Redovisningskonto för moms"/>
+            <account number="60" label="Särskilda punktskatter"/>
+            <account number="61" label="Reklamskatt"/>
+            <account number="69" label="Övriga punktskatter"/>
+        </account-group>
+        <account-group number="7" label="Personalens skatter, avgifter och löneavdrag">
+            <account number="10" label="Personalskatt"/>
+            <account number="30" label="Lagstadgade sociala avgifter och särskild löneskatt"/>
+            <account number="31" label="Avräkning lagstadgade sociala avgifter"/>
+            <account number="32" label="Avräkning särskild löneskatt"/>
+            <account number="40" label="Avtalade sociala avgifter"/>
+            <account number="50" label="Utmätning i lön m.m."/>
+            <account number="60" label="Semestermedel"/>
+            <account number="61" label="Avräkning semesterlöner"/>
+            <account number="62" label="Semesterlönekassa"/>
+            <account number="90" label="Övriga löneavdrag"/>
+            <account number="91" label="Personalens intressekonto"/>
+            <account number="92" label="Lönsparande"/>
+            <account number="93" label="Gruppförsäkringspremier"/>
+            <account number="94" label="Fackföreningsavgifter"/>
+            <account number="95" label="Mätnings- och granskningsarvoden"/>
+            <account number="99" label="Övriga löneavdrag"/>
+        </account-group>
+        <account-group number="8" label="Övriga kortfristiga skulder">
+            <account number="10" label="Avräkning för factoring och belånade kontraktsfordringar"/>
+            <account number="11" label="Avräkning för factoring"/>
+            <account number="12" label="Avräkning för belånade kontraktsfordringar"/>
+            <account number="20" label="Kortfristiga skulder till anställda"/>
+            <account number="21" label="Löneskulder"/>
+            <account number="22" label="Reseräkningar"/>
+            <account number="23" label="Tantiem, gratifikationer"/>
+            <account number="29" label="Övriga kortfristiga skulder till anställda"/>
+            <account number="30" label="Avräkning för annans räkning"/>
+            <account number="40" label="Kortfristiga låneskulder"/>
+            <account number="41" label="Kortfristig del av långfristiga skulder"/>
+            <account number="49" label="Övriga kortfristiga låneskulder"/>
+            <account number="50" label="Avräkning för skatter och avgifter (skattekonto)"/>
+            <account number="60" label="Kortfristiga skulder till koncernföretag"/>
+            <account number="61" label="Kortfristiga skulder till moderföretag"/>
+            <account number="62" label="Kortfristiga skulder till dotterföretag"/>
+            <account number="63" label="Kortfristiga skulder till andra koncernföretag"/>
+            <account number="70" label="Kortfristiga skulder till intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="71" label="Kortfristiga skulder till intresseföretag"/>
+            <account number="72" label="Kortfristiga skulder till gemensamt styrda företag"/>
+            <account number="73" label="Kortfristiga skulder till övriga företag som det finns ett ägarintresse i"/>
+            <account number="80" label="Skuld erhållna bidrag"/>
+            <account number="90" label="Övriga kortfristiga skulder"/>
+            <account number="91" label="Skulder under indrivning"/>
+            <account number="92" label="Inre reparationsfond/underhållsfond"/>
+            <account number="93" label="Skulder till närstående personer, kortfristig del"/>
+            <account number="95" label="Derivat (kortfristiga skulder)"/>
+            <account number="97" label="Mottagna depositioner, kortfristiga"/>
+            <account number="98" label="Outtagen vinstutdelning"/>
+            <account number="99" label="Övriga kortfristiga skulder"/>
+        </account-group>
+        <account-group number="9" label="Upplupna kostnader och förutbetalda intäkter">
+            <account number="10" label="Upplupna löner"/>
+            <account number="11" label="Löneskulder"/>
+            <account number="12" label="Ackordsöverskott"/>
+            <account number="19" label="Övriga upplupna löner"/>
+            <account number="20" label="Upplupna semesterlöner"/>
+            <account number="30" label="Upplupna pensionskostnader"/>
+            <account number="31" label="Upplupna pensionsutbetalningar"/>
+            <account number="40" label="Upplupna lagstadgade sociala och andra avgifter"/>
+            <account number="41" label="Beräknade upplupna lagstadgade sociala avgifter"/>
+            <account number="42" label="Beräknad upplupen särskild löneskatt"/>
+            <account number="43" label="Beräknad upplupen särskild löneskatt på pensionskostnader, deklarationspost"/>
+            <account number="44" label="Beräknad upplupen avkastningsskatt på pensionskostnader"/>
+            <account number="50" label="Upplupna avtalade sociala avgifter"/>
+            <account number="51" label="Upplupna avtalade arbetsmarknadsförsäkringar"/>
+            <account number="59" label="Upplupna avtalade pensionsförsäkringsavgifter, deklarationspost"/>
+            <account number="60" label="Upplupna räntekostnader"/>
+            <account number="70" label="Förutbetalda intäkter"/>
+            <account number="71" label="Förutbetalda hyresintäkter"/>
+            <account number="72" label="Förutbetalda medlemsavgifter"/>
+            <account number="79" label="Övriga förutbetalda intäkter"/>
+            <account number="80" label="Upplupna avtalskostnader"/>
+            <account number="90" label="Övriga upplupna kostnader och förutbetalda intäkter"/>
+            <account number="91" label="Beräknat arvode för bokslut"/>
+            <account number="92" label="Beräknat arvode för revision"/>
+            <account number="93" label="Ospecificerad skuld till leverantörer"/>
+            <account number="98" label="Övriga upplupna kostnader och förutbetalda intäkter"/>
+            <account number="99" label="OBS-konto"/>
+        </account-group>
+    </account-class>
+    <account-class number="3" label="Rörelsens inkomster/intäkter">
+        <account-group number="0" label="Huvudintäkter">
+            <account number="00" label="Försäljning inom Sverige"/>
+            <account number="01" label="Försäljning inom Sverige, 25% moms"/>
+            <account number="02" label="Försäljning inom Sverige, 12% moms"/>
+            <account number="03" label="Försäljning inom Sverige, 6% moms"/>
+            <account number="04" label="Försäljning inom Sverige, momsfri"/>
+            <account number="10" label="Försäljning"/>
+        </account-group>
+        <account-group number="1" label="Försäljning av varor utanför Sverige">
+            <account number="00" label="Försäljning av varor utanför Sverige"/>
+            <account number="05" label="Försäljning av varor till land utanför EU"/>
+            <account number="06" label="Försäljning av varor till annat EU-land, momspliktig"/>
+            <account number="08" label="Försäljning av varor till annat EU-land, momsfri"/>
+        </account-group>
+        <account-group number="2" label="Försäljning VMB och omvänd moms">
+            <account number="00" label="Försäljning VMB och omvänd moms"/>
+            <account number="11" label="Försäljning positiv VMB 25%"/>
+            <account number="12" label="Försäljning negativ VMB 25%"/>
+            <account number="31" label="Försäljning inom byggsektorn, omvänd skatteskyldighet moms"/>
+        </account-group>
+        <account-group number="3" label="Försäljning av tjänster utanför Sverige">
+            <account number="00" label="Försäljning av tjänster utanför Sverige"/>
+            <account number="05" label="Försäljning tjänster till land utanför EU"/>
+            <account number="08" label="Försäljning tjänster till annat EU-land"/>
+        </account-group>
+        <account-group number="4" label="Försäljning, egna uttag">
+            <account number="00" label="Försäljning, egna uttag"/>
+            <account number="01" label="Egna uttag, momspliktiga, 25%"/>
+            <account number="02" label="Egna uttag, momspliktiga, 12%"/>
+            <account number="03" label="Egna uttag, momspliktiga, 6%"/>
+            <account number="04" label="Egna uttag, momsfria"/>
+        </account-group>
+        <account-group number="5" label="Fakturerade kostnader">
+            <account number="00" label="Fakturerade kostnader (gruppkonto)"/>
+            <account number="10" label="Fakturerat emballage"/>
+            <account number="11" label="Fakturerat emballage"/>
+            <account number="18" label="Returnerat emballage"/>
+            <account number="20" label="Fakturerade frakter"/>
+            <account number="21" label="Fakturerade frakter, EU-land"/>
+            <account number="22" label="Fakturerade frakter, export"/>
+            <account number="30" label="Fakturerade tull- och speditionskostnader m.m."/>
+            <account number="40" label="Faktureringsavgifter"/>
+            <account number="41" label="Faktureringsavgifter, EU-land"/>
+            <account number="42" label="Faktureringsavgifter, export"/>
+            <account number="50" label="Fakturerade resekostnader"/>
+            <account number="60" label="Fakturerade kostnader till koncernföretag"/>
+            <account number="61" label="Fakturerade kostnader till moderföretag"/>
+            <account number="62" label="Fakturerade kostnader till dotterföretag"/>
+            <account number="63" label="Fakturerade kostnader till andra koncernföretag"/>
+            <account number="70" label="Fakturerade kostnader till intresseföretag"/>
+            <account number="90" label="Övriga fakturerade kostnader"/>
+        </account-group>
+        <account-group number="6" label="Rörelsens sidointäkter">
+            <account number="00" label="Rörelsens sidointäkter (gruppkonto)"/>
+            <account number="10" label="Försäljning av material"/>
+            <account number="11" label="Försäljning av råmaterial"/>
+            <account number="12" label="Försäljning av skrot"/>
+            <account number="13" label="Försäljning av förbrukningsmaterial"/>
+            <account number="19" label="Försäljning av övrigt material"/>
+            <account number="20" label="Tillfällig uthyrning av personal"/>
+            <account number="30" label="Tillfällig uthyrning av transportmedel"/>
+            <account number="70" label="Intäkter från värdepapper"/>
+            <account number="71" label="Försäljning av värdepapper"/>
+            <account number="72" label="Utdelning från värdepapper"/>
+            <account number="79" label="Övriga intäkter från värdepapper"/>
+            <account number="80" label="Management fees"/>
+            <account number="90" label="Övriga sidointäkter"/>
+        </account-group>
+        <account-group number="7" label="Intäktskorrigeringar">
+            <account number="00" label="Intäktskorrigeringar (gruppkonto)"/>
+            <account number="10" label="Ofördelade intäktsreduktioner"/>
+            <account number="30" label="Lämnade rabatter"/>
+            <account number="31" label="Lämnade kassarabatter"/>
+            <account number="32" label="Lämnade mängdrabatter"/>
+            <account number="40" label="Öres- och kronutjämning"/>
+            <account number="50" label="Punktskatter"/>
+            <account number="51" label="Intäktsförda punktskatter (kreditkonto)"/>
+            <account number="52" label="Skuldförda punktskatter (debetkonto)"/>
+            <account number="90" label="Övriga intäktskorrigeringar"/>
+        </account-group>
+        <account-group number="8" label="Aktiverat arbete för egen räkning">
+            <account number="00" label="Aktiverat arbete för egen räkning (gruppkonto)"/>
+            <account number="40" label="Aktiverat arbete (material)"/>
+            <account number="50" label="Aktiverat arbete (omkostnader)"/>
+            <account number="70" label="Aktiverat arbete (personal)"/>
+        </account-group>
+        <account-group number="9" label="Övriga rörelseintäkter">
+            <account number="00" label="Övriga rörelseintäkter (gruppkonto)"/>
+            <account number="10" label="Hyres- och arrendeintäkter"/>
+            <account number="11" label="Hyresintäkter"/>
+            <account number="12" label="Arrendeintäkter"/>
+            <account number="13" label="Frivilligt momspliktiga hyresintäkter"/>
+            <account number="14" label="Övriga momspliktiga hyresintäkter"/>
+            <account number="20" label="Provisionsintäkter, licensintäkter och royalties"/>
+            <account number="21" label="Provisionsintäkter"/>
+            <account number="22" label="Licensintäkter och royalties"/>
+            <account number="25" label="Franchiseintäkter"/>
+            <account number="40" label="Orealiserade negativa/positiva värdeförändringar på säkringsinstrument"/>
+            <account number="50" label="Återvunna, tidigare avskrivna kundfordringar"/>
+            <account number="60" label="Valutakursvinster på fordringar och skulder av rörelsekaraktär"/>
+            <account number="70" label="Vinst vid avyttring av immateriella och materiella anläggningstillgångar"/>
+            <account number="71" label="Vinst vid avyttring av immateriella anläggningstillgångar"/>
+            <account number="72" label="Vinst vid avyttring av byggnader och mark"/>
+            <account number="73" label="Vinst vid avyttring av maskiner och inventarier"/>
+            <account number="80" label="Erhållna offentliga stöd m.m."/>
+            <account number="81" label="Erhållna EU-bidrag"/>
+            <account number="85" label="Erhållna statliga bidrag"/>
+            <account number="87" label="Erhållna kommunala bidrag"/>
+            <account number="88" label="Erhållna bidrag och ersättningar för personal"/>
+            <account number="89" label="Övriga erhållna bidrag"/>
+            <account number="90" label="Övriga ersättningar och intäkter"/>
+            <account number="91" label="Konfliktersättning"/>
+            <account number="92" label="Erhållna skadestånd"/>
+            <account number="93" label="Erhållna donationer och gåvor"/>
+            <account number="94" label="Försäkringsersättningar"/>
+            <account number="95" label="Erhållet ackord på skulder av rörelsekaraktär"/>
+            <account number="96" label="Erhållna reklambidrag"/>
+            <account number="97" label="Sjuklöneersättning"/>
+            <account number="98" label="Sjukpenning"/>
+            <account number="99" label="Övriga rörelseintäkter"/>
+        </account-group>
+    </account-class>
+    <account-class number="4" label="Utgifter/kostnader för varor, material och vissa köpta tjänster">
+        <account-group number="0" label="Inköp av varor och material">
+            <account number="00" label="Inköp av varor från Sverige"/>
+            <account number="10" label="Inköp av varor och material"/>
+        </account-group>
+        <account-group number="2" label="Sålda varor VMB">
+            <account number="00" label="Sålda varor VMB"/>
+            <account number="11" label="Sålda varor positiv VMB, 25%"/>
+            <account number="12" label="Sålda varor negativ VMB, 25%"/>
+        </account-group>
+        <account-group number="4" label="Inköpta tjänster i Sverige, omvänd skattskyldighet">
+            <account number="00" label="Inköpta tjänster i Sverige, omvänd skattskyldighet"/>
+            <account number="15" label="Inköpta varor i Sverige, omvänd skattskyldighet, 25% moms"/>
+            <account number="16" label="Inköpta varor i Sverige, omvänd skattskyldighet, 12% moms"/>
+            <account number="17" label="Inköpta varor i Sverige, omvänd skattskyldighet, 6% moms"/>
+            <account number="25" label="Inköpta tjänster i Sverige, omvänd skattskyldighet, 25%"/>
+            <account number="26" label="Inköpta tjänster i Sverige, omvänd skattskyldighet, 12%"/>
+            <account number="27" label="Inköpta tjänster i Sverige, omvänd skattskyldighet, 6%"/>
+        </account-group>
+        <account-group number="5" label="Inköp från annat EU-land">
+            <account number="00" label="Inköp av varor från annat EU-land"/>
+            <account number="15" label="Inköp av varor från annat EU-land, 25%"/>
+            <account number="16" label="Inköp av varor från annat EU-land, 12%"/>
+            <account number="17" label="Inköp av varor från annat EU-land, 6%"/>
+            <account number="18" label="Inköp av varor från annat EU-land, momsfri"/>
+            <account number="31" label="Inköp av tjänster från ett land utanför EU, 25% moms"/>
+            <account number="32" label="Inköp av tjänster från ett land utanför EU, 12% moms"/>
+            <account number="33" label="Inköp av tjänster från ett land utanför EU, 6% moms"/>
+            <account number="35" label="Inköp av tjänster från annat EU-land, 25%"/>
+            <account number="36" label="Inköp av tjänster från annat EU-land, 12%"/>
+            <account number="37" label="Inköp av tjänster från annat EU-land, 6%"/>
+            <account number="38" label="Inköp av tjänster från annat EU-land, momsfri"/>
+            <account number="45" label="Import av varor, 25% moms"/>
+            <account number="46" label="Import av varor, 12% moms"/>
+            <account number="47" label="Import av varor, 6% moms"/>
+        </account-group>
+        <account-group number="6" label="Legoarbeten, underentreprenader">
+            <account number="00" label="Legoarbeten och underentreprenader (gruppkonto)"/>
+        </account-group>
+        <account-group number="7" label="Reduktion av inköpspriser">
+            <account number="00" label="Reduktion av inköpspriser (gruppkonto)"/>
+            <account number="30" label="Erhållna rabatter"/>
+            <account number="31" label="Erhållna kassarabatter"/>
+            <account number="32" label="Erhållna mängdrabatter (inkl. bonus)"/>
+            <account number="33" label="Erhållet aktivitetsstöd"/>
+            <account number="90" label="Övriga reduktioner av inköpspriser"/>
+        </account-group>
+        <account-group number="8" label="(Fri kontogrupp)"/>
+        <account-group number="9" label="Förändring av lager, produkter i arbete och pågående arbeten">
+            <account number="00" label="Förändring av lager (gruppkonto)"/>
+            <account number="10" label="Förändring av lager av råvaror"/>
+            <account number="20" label="Förändring av lager av tillsatsmaterial och förnödenheter"/>
+            <account number="30" label="Förändring av lager av halvfabrikat"/>
+            <account number="31" label="Förändring av lager av köpta halvfabrikat"/>
+            <account number="32" label="Förändring av lager av egentillverkade halvfabrikat"/>
+            <account number="40" label="Förändring av produkter i arbete"/>
+            <account number="44" label="Förändring av produkter i arbete, material och utlägg"/>
+            <account number="45" label="Förändring av produkter i arbete, omkostnader"/>
+            <account number="47" label="Förändring av produkter i arbete, personalkostnader"/>
+            <account number="50" label="Förändring av lager av färdiga varor"/>
+            <account number="60" label="Förändring av lager av handelsvaror"/>
+            <account number="70" label="Förändring av pågående arbeten, nedlagda kostnader"/>
+            <account number="74" label="Förändring av pågående arbeten, material och utlägg"/>
+            <account number="75" label="Förändring av pågående arbeten, omkostnader"/>
+            <account number="77" label="Förändring av pågående arbeten, personalkostnader"/>
+            <account number="80" label="Förändring av lager av värdepapper"/>
+            <account number="81" label="Sålda värdepappers anskaffningsvärde"/>
+            <account number="87" label="Nedskrivning av värdepapper"/>
+            <account number="88" label="Återföring av nedskrivning av värdepapper"/>
+            <account number="90" label="Förändring av lager och pågående arbeten (ofördelad)"/>
+        </account-group>
+    </account-class>
+    <account-class number="5" label="Övriga externa rörelseutgifter/kostnader">
+        <account-group number="0" label="Lokalkostnader">
+            <account number="00" label="Lokalkostnader (gruppkonto)"/>
+            <account number="10" label="Lokalhyra"/>
+            <account number="11" label="Hyra för kontorslokaler"/>
+            <account number="12" label="Hyra för garage"/>
+            <account number="13" label="Hyra för lagerlokaler"/>
+            <account number="20" label="El för belysning"/>
+            <account number="30" label="Värme"/>
+            <account number="40" label="Vatten och avlopp"/>
+            <account number="50" label="Lokaltillbehör"/>
+            <account number="60" label="Städning och renhållning"/>
+            <account number="61" label="Städning"/>
+            <account number="62" label="Sophämtning"/>
+            <account number="63" label="Hyra för sopcontainer"/>
+            <account number="64" label="Snöröjning"/>
+            <account number="65" label="Trädgårdsskötsel"/>
+            <account number="70" label="Reparation och underhåll av lokaler"/>
+            <account number="90" label="Övriga lokalkostnader"/>
+            <account number="98" label="Övriga lokalkostnader, avdragsgilla"/>
+            <account number="99" label="Övriga lokalkostnader, ej avdragsgilla"/>
+        </account-group>
+        <account-group number="1" label="Fastighetskostnader">
+            <account number="00" label="Fastighetskostnader (gruppkonto)"/>
+            <account number="10" label="Tomträttsavgäld/arrende"/>
+            <account number="20" label="El för belysning"/>
+            <account number="30" label="Värme"/>
+            <account number="31" label="Uppvärmning"/>
+            <account number="32" label="Sotning"/>
+            <account number="40" label="Vatten och avlopp"/>
+            <account number="60" label="Städning och renhållning"/>
+            <account number="61" label="Städning"/>
+            <account number="62" label="Sophämtning"/>
+            <account number="63" label="Hyra för sopcontainer"/>
+            <account number="64" label="Snöröjning"/>
+            <account number="65" label="Trädgårdsskötsel"/>
+            <account number="70" label="Reparation och underhåll av fastighet"/>
+            <account number="90" label="Övriga fastighetskostnader"/>
+            <account number="91" label="Fastighetsskatt/fastighetsavgift"/>
+            <account number="92" label="Fastighetsförsäkringspremier"/>
+            <account number="93" label="Fastighetsskötsel och förvaltning"/>
+            <account number="98" label="Övriga fastighetskostnader, avdragsgilla"/>
+            <account number="99" label="Övriga fastighetskostnader, ej avdragsgilla"/>
+        </account-group>
+        <account-group number="2" label="Hyra av anläggningstillgångar">
+            <account number="00" label="Hyra av anläggningstillgångar (gruppkonto)"/>
+            <account number="10" label="Hyra av maskiner och andra tekniska anläggningar"/>
+            <account number="11" label="Korttidshyra av maskiner och andra tekniska anläggningar"/>
+            <account number="12" label="Leasing av maskiner och andra tekniska anläggningar"/>
+            <account number="20" label="Hyra av inventarier och verktyg"/>
+            <account number="21" label="Korttidshyra av inventarier och verktyg"/>
+            <account number="22" label="Leasing av inventarier och verktyg"/>
+            <account number="50" label="Hyra av datorer"/>
+            <account number="51" label="Korttidshyra av datorer"/>
+            <account number="52" label="Leasing av datorer"/>
+            <account number="90" label="Övriga hyreskostnader för anläggningstillgångar"/>
+        </account-group>
+        <account-group number="3" label="Energikostnader">
+            <account number="00" label="Energikostnader (gruppkonto)"/>
+            <account number="10" label="El för drift"/>
+            <account number="20" label="Gas"/>
+            <account number="30" label="Eldningsolja"/>
+            <account number="40" label="Stenkol och koks"/>
+            <account number="50" label="Torv, träkol, ved och annat träbränsle"/>
+            <account number="60" label="Bensin, fotogen och motorbrännolja"/>
+            <account number="70" label="Fjärrvärme, kyla och ånga"/>
+            <account number="80" label="Vatten"/>
+            <account number="90" label="Övriga energikostnader"/>
+        </account-group>
+        <account-group number="4" label="Förbrukningsinventarier och förbrukningsmaterial">
+            <account number="00" label="Förbrukningsinventarier och förbrukningsmaterial (gruppkonto)"/>
+            <account number="10" label="Förbrukningsinventarier"/>
+            <account number="11" label="Förbrukningsinventarier med en livslängd på mer än ett år"/>
+            <account number="12" label="Förbrukningsinventarier med en livslängd på ett år eller mindre"/>
+            <account number="20" label="Programvaror"/>
+            <account number="30" label="Transportinventarier"/>
+            <account number="40" label="Förbrukningsemballage"/>
+            <account number="60" label="Förbrukningsmaterial"/>
+            <account number="80" label="Arbetskläder och skyddsmaterial"/>
+            <account number="90" label="Övriga förbrukningsinventarier och förbrukningsmaterial"/>
+            <account number="91" label="Övriga förbrukningsinventarier med en livslängd på mer än ett år"/>
+            <account number="92" label="Övriga förbrukningsinventarier med en livslängd på ett år eller mindre"/>
+            <account number="93" label="Övrigt förbrukningsmaterial"/>
+        </account-group>
+        <account-group number="5" label="Reparation och underhåll">
+            <account number="00" label="Reparation och underhåll (gruppkonto)"/>
+            <account number="10" label="Reparation och underhåll av maskiner och andra tekniska anläggningar"/>
+            <account number="20" label="Reparation och underhåll av inventarier, verktyg och datorer m.m."/>
+            <account number="30" label="Reparation och underhåll av installationer"/>
+            <account number="50" label="Reparation och underhåll av förbrukningsinventarier"/>
+            <account number="80" label="Underhåll och tvätt av arbetskläder"/>
+            <account number="90" label="Övriga kostnader för reparation och underhåll"/>
+        </account-group>
+        <account-group number="6" label="Kostnader för transportmedel">
+            <account number="00" label="Kostnader för transportmedel (gruppkonto)"/>
+            <account number="10" label="Personbilskostnader"/>
+            <account number="11" label="Drivmedel för personbilar"/>
+            <account number="12" label="Försäkring och skatt för personbilar"/>
+            <account number="13" label="Reparation och underhåll av personbilar"/>
+            <account number="15" label="Leasing av personbilar"/>
+            <account number="16" label="Trängselskatt, avdragsgill"/>
+            <account number="19" label="Övriga personbilskostnader"/>
+            <account number="20" label="Lastbilskostnader"/>
+            <account number="30" label="Truckkostnader"/>
+            <account number="40" label="Kostnader för arbetsmaskiner"/>
+            <account number="50" label="Traktorkostnader"/>
+            <account number="60" label="Motorcykel-, moped- och skoterkostnader"/>
+            <account number="70" label="Båt-, flygplans- och helikopterkostnader"/>
+            <account number="90" label="Övriga kostnader för transportmedel"/>
+        </account-group>
+        <account-group number="7" label="Frakter och transporter">
+            <account number="00" label="Frakter och transporter (gruppkonto)"/>
+            <account number="10" label="Frakter, transporter och försäkringar vid varudistribution"/>
+            <account number="20" label="Tull- och speditionskostnader m.m."/>
+            <account number="30" label="Arbetstransporter"/>
+            <account number="90" label="Övriga kostnader för frakter och transporter"/>
+        </account-group>
+        <account-group number="8" label="Resekostnader">
+            <account number="00" label="Resekostnader (gruppkonto)"/>
+            <account number="10" label="Biljetter"/>
+            <account number="20" label="Hyrbilskostnader"/>
+            <account number="30" label="Kost och logi"/>
+            <account number="31" label="Kost och logi i Sverige"/>
+            <account number="32" label="Kost och logi i utlandet"/>
+            <account number="90" label="Övriga resekostnader"/>
+        </account-group>
+        <account-group number="9" label="Reklam och PR">
+            <account number="00" label="Reklam och PR (gruppkonto)"/>
+            <account number="10" label="Annonsering"/>
+            <account number="20" label="Utomhus- och trafikreklam"/>
+            <account number="30" label="Reklamtrycksaker och direktreklam"/>
+            <account number="40" label="Utställningar och mässor"/>
+            <account number="50" label="Butiksreklam och återförsäljarreklam"/>
+            <account number="60" label="Varuprover, reklamgåvor, presentreklam och tävlingar"/>
+            <account number="70" label="Film-, radio-, TV- och Internetreklam"/>
+            <account number="80" label="PR, institutionell reklam och sponsring"/>
+            <account number="90" label="Övriga kostnader för reklam och PR"/>
+        </account-group>
+    </account-class>
+    <account-class number="6" label="Övriga externa rörelseutgifter/kostnader (forts.)">
+        <account-group number="0" label="Övriga försäljningskostnader">
+            <account number="00" label="Övriga försäljningskostnader (gruppkonto)"/>
+            <account number="10" label="Kataloger, prislistor m.m."/>
+            <account number="20" label="Egna facktidskrifter"/>
+            <account number="30" label="Speciella orderkostnader"/>
+            <account number="40" label="Kontokortsavgifter"/>
+            <account number="50" label="Försäljningsprovisioner"/>
+            <account number="55" label="Franchisekostnader o.dyl."/>
+            <account number="60" label="Kreditförsäljningskostnader"/>
+            <account number="61" label="Kreditupplysning"/>
+            <account number="62" label="Inkasso och KFM-avgifter"/>
+            <account number="63" label="Kreditförsäkringspremier"/>
+            <account number="64" label="Factoringavgifter"/>
+            <account number="69" label="Övriga kreditförsäljningskostnader"/>
+            <account number="70" label="Representation"/>
+            <account number="71" label="Representation, avdragsgill"/>
+            <account number="72" label="Representation, ej avdragsgill"/>
+            <account number="80" label="Bankgarantier"/>
+            <account number="90" label="Övriga försäljningskostnader"/>
+        </account-group>
+        <account-group number="1" label="Kontorsmateriel och trycksaker">
+            <account number="00" label="Kontorsmateriel och trycksaker (gruppkonto)"/>
+            <account number="10" label="Kontorsmateriel"/>
+            <account number="50" label="Trycksaker"/>
+        </account-group>
+        <account-group number="2" label="Tele och post">
+            <account number="00" label="Tele och post (gruppkonto)"/>
+            <account number="10" label="Telekommunikation"/>
+            <account number="11" label="Fast telefoni"/>
+            <account number="12" label="Mobiltelefon"/>
+            <account number="13" label="Mobilsökning"/>
+            <account number="14" label="Fax"/>
+            <account number="15" label="Telex"/>
+            <account number="30" label="Datakommunikation"/>
+            <account number="50" label="Postbefordran"/>
+        </account-group>
+        <account-group number="3" label="Företagsförsäkringar och övriga riskkostnader">
+            <account number="00" label="Företagsförsäkringar och övriga riskkostnader (gruppkonto)"/>
+            <account number="10" label="Företagsförsäkringar"/>
+            <account number="20" label="Självrisker vid skada"/>
+            <account number="30" label="Förluster i pågående arbeten"/>
+            <account number="40" label="Lämnade skadestånd"/>
+            <account number="41" label="Lämnade skadestånd, avdragsgilla"/>
+            <account number="42" label="Lämnade skadestånd, ej avdragsgilla"/>
+            <account number="50" label="Förluster på kundfordringar"/>
+            <account number="51" label="Konstaterade förluster på kundfordringar"/>
+            <account number="52" label="Befarade förluster på kundfordringar"/>
+            <account number="60" label="Garantikostnader"/>
+            <account number="61" label="Förändring av garantiavsättning"/>
+            <account number="62" label="Faktiska garantikostnader"/>
+            <account number="70" label="Kostnader för bevakning och larm"/>
+            <account number="80" label="Förluster på övriga kortfristiga fordringar"/>
+            <account number="90" label="Övriga riskkostnader"/>
+        </account-group>
+        <account-group number="4" label="Förvaltningskostnader">
+            <account number="00" label="Förvaltningskostnader (gruppkonto)"/>
+            <account number="10" label="Styrelsearvoden som inte är lön"/>
+            <account number="20" label="Ersättningar till revisor"/>
+            <account number="21" label="Revision"/>
+            <account number="22" label="Rådgivning"/>
+            <account number="23" label="Skatterådgivning - revisor"/>
+            <account number="24" label="Övriga tjänster - revisor"/>
+            <account number="30" label="Management fees"/>
+            <account number="40" label="Årsredovisning och delårsrapporter"/>
+            <account number="50" label="Bolagsstämma/års- eller föreningsstämma"/>
+            <account number="90" label="Övriga förvaltningskostnader"/>
+        </account-group>
+        <account-group number="5" label="Övriga externa tjänster">
+            <account number="00" label="Övriga externa tjänster (gruppkonto)"/>
+            <account number="10" label="Mätningskostnader"/>
+            <account number="20" label="Ritnings- och kopieringskostnader"/>
+            <account number="30" label="Redovisningstjänster"/>
+            <account number="40" label="IT-tjänster"/>
+            <account number="50" label="Konsultarvoden"/>
+            <account number="60" label="Serviceavgifter till branschorganisationer"/>
+            <account number="70" label="Bankkostnader"/>
+            <account number="80" label="Advokat- och rättegångskostnader"/>
+            <account number="90" label="Övriga externa tjänster"/>
+        </account-group>
+        <account-group number="6" label="(Fri kontogrupp)"/>
+        <account-group number="7" label="(Fri kontogrupp)"/>
+        <account-group number="8" label="Inhyrd personal">
+            <account number="00" label="Inhyrd personal (gruppkonto)"/>
+            <account number="10" label="Inhyrd produktionspersonal"/>
+            <account number="20" label="Inhyrd lagerpersonal"/>
+            <account number="30" label="Inhyrd transportpersonal"/>
+            <account number="40" label="Inhyrd kontors- och ekonomipersonal"/>
+            <account number="50" label="Inhyrd IT-personal"/>
+            <account number="60" label="Inhyrd marknads- och försäljningspersonal"/>
+            <account number="70" label="Inhyrd restaurang- och butikspersonal"/>
+            <account number="80" label="Inhyrda företagsledare"/>
+            <account number="90" label="Övrig inhyrd personal"/>
+        </account-group>
+        <account-group number="9" label="Övriga externa kostnader">
+            <account number="00" label="Övriga externa kostnader (gruppkonto)"/>
+            <account number="10" label="Licensavgifter och royalties"/>
+            <account number="20" label="Kostnader för egna patent"/>
+            <account number="30" label="Kostnader för varumärken m.m."/>
+            <account number="40" label="Kontroll-, provnings- och stämpelavgifter"/>
+            <account number="50" label="Tillsynsavgifter myndigheter"/>
+            <account number="70" label="Tidningar, tidskrifter och facklitteratur"/>
+            <account number="80" label="Föreningsavgifter"/>
+            <account number="81" label="Föreningsavgifter, avdragsgilla"/>
+            <account number="82" label="Föreningsavgifter, ej avdragsgilla"/>
+            <account number="90" label="Övriga externa kostnader"/>
+            <account number="91" label="Övriga externa kostnader, avdragsgilla"/>
+            <account number="92" label="Övriga externa kostnader, ej avdragsgilla"/>
+            <account number="93" label="Lämnade bidrag och gåvor"/>
+            <account number="96" label="Betald utländsk inkomstskatt"/>
+            <account number="97" label="Obetald utländsk inkomstskatt"/>
+            <account number="98" label="Utländsk moms"/>
+            <account number="99" label="Ingående moms, blandad verksamhet"/>
+        </account-group>
+    </account-class>
+    <account-class number="7" label="Utgifter/kostnader för personal, avskrivningar m.m.">
+        <account-group number="0" label="Löner till kollektivanställda">
+            <account number="00" label="Löner till kollektivanställda (gruppkonto)"/>
+            <account number="10" label="Löner till kollektivanställda"/>
+            <account number="11" label="Löner till kollektivanställda"/>
+            <account number="12" label="Vinstandelar till kollektivanställda"/>
+            <account number="13" label="Löner till kollektivanställda 25,46 %"/>
+            <account number="14" label="Löner till kollektivanställda 16,36 %"/>
+            <account number="15" label="Löner till kollektivanställda 6,15 %"/>
+            <account number="16" label="Vinstandelar till kollektivanställda 6,15 %"/>
+            <account number="17" label="Avgångsvederlag till kollektivanställda"/>
+            <account number="18" label="Bruttolöneavdrag, kollektivanställda"/>
+            <account number="19" label="Upplupna löner och vinstandelar till kollektivanställda"/>
+            <account number="30" label="Löner till kollektivanställda (utlandsanställda)"/>
+            <account number="31" label="Löner till kollektivanställda (utlandsanställda)"/>
+            <account number="32" label="Vinstandelar till kollektivanställda (utlandsanställda)"/>
+            <account number="33" label="Löner till kollektivanställda under 26 år (utlandsanställda)"/>
+            <account number="34" label="Löner till kollektivanställda (nya pensionssystemet) (utlandsanställda)"/>
+            <account number="35" label="Löner till kollektivanställda (avgiftsbefriade) (utlandsanställda)"/>
+            <account number="36" label="Vinstandelar till kollektivanställda (avgiftsbefriade) (utlandsanställda)"/>
+            <account number="37" label="Avgångsvederlag till kollektivanställda (utlandsanställda)"/>
+            <account number="38" label="Bruttolöneavdrag, kollektivanställda (utlandsanställda)"/>
+            <account number="39" label="Upplupna löner och vinstandelar till kollektivanställda (utlandsanställda)"/>
+            <account number="80" label="Löner till kollektivanställda för ej arbetad tid"/>
+            <account number="81" label="Sjuklöner till kollektivanställda"/>
+            <account number="82" label="Semesterlöner till kollektivanställda"/>
+            <account number="83" label="Föräldraersättning till kollektivanställda"/>
+            <account number="89" label="Övriga löner till kollektivanställda för ej arbetad tid"/>
+            <account number="90" label="Förändring av semesterlöneskuld"/>
+        </account-group>
+        <account-group number="1" label="(Fri kontogrupp)"/>
+        <account-group number="2" label="Löner till tjänstemän och företagsledare">
+            <account number="00" label="Löner till tjänstemän och företagsledare (gruppkonto)"/>
+            <account number="10" label="Löner till tjänstemän"/>
+            <account number="11" label="Löner till tjänstemän"/>
+            <account number="12" label="Vinstandelar till tjänstemän"/>
+            <account number="13" label="Löner till tjänstemän 25,46 %"/>
+            <account number="14" label="Löner till tjänstemän 16,36 %"/>
+            <account number="15" label="Löner till tjänstemän 6,15 %"/>
+            <account number="16" label="Vinstandelar till tjänstemän 6,15 %"/>
+            <account number="17" label="Avgångsvederlag till tjänstemän"/>
+            <account number="18" label="Bruttolöneavdrag, tjänstemän"/>
+            <account number="19" label="Upplupna löner och vinstandelar till tjänstemän"/>
+            <account number="20" label="Löner till företagsledare"/>
+            <account number="21" label="Löner till företagsledare"/>
+            <account number="22" label="Tantiem till företagsledare"/>
+            <account number="23" label="Löner till företagsledare 25,46 %"/>
+            <account number="24" label="Löner till företagsledare 16,36 %"/>
+            <account number="25" label="Löner till företagsledare 6,15 %"/>
+            <account number="27" label="Avgångsvederlag till företagsledare"/>
+            <account number="28" label="Bruttolöneavdrag, företagsledare"/>
+            <account number="29" label="Upplupna löner och tantiem till företagsledare"/>
+            <account number="30" label="Löner till tjänstemän och företagsledare (utlandsanställda)"/>
+            <account number="31" label="Löner till tjänstemän och företagsledare (utlandsanställda)"/>
+            <account number="32" label="Vinstandelar till tjänstemän och företagsledare (utlandsanställda)"/>
+            <account number="33" label="Löner till tjänstemän och företagsledare under 26 år"/>
+            <account number="34" label="Löner till tjänstemän och företagsledare (utlandsanställda) (nya pensionssystemet)"/>
+            <account number="35" label="Löner till tjänstemän och företagsledare (utlandsanställda) (avgiftsbefriade)"/>
+            <account number="36" label="Vinstandelar till tjänstemän och företagsledare (utlandsanställda) (avgiftsbefriade)"/>
+            <account number="37" label="Avgångsvederlag till tjänstemän och företagsledare (utlandsanställda)"/>
+            <account number="38" label="Bruttolöneavdrag, tjänstemän och företagsledare (utlandsanställda)"/>
+            <account number="39" label="Upplupna löner och vinstandelar till tjänstemän och företagsledare (utlandsanställda)"/>
+            <account number="40" label="Styrelsearvoden"/>
+            <account number="80" label="Löner till tjänstemän och företagsledare för ej arbetad tid"/>
+            <account number="81" label="Sjuklöner till tjänstemän"/>
+            <account number="82" label="Sjuklöner till företagsledare"/>
+            <account number="83" label="Föräldraersättning till tjänstemän"/>
+            <account number="84" label="Föräldraersättning till företagsledare"/>
+            <account number="85" label="Semesterlöner till tjänstemän"/>
+            <account number="86" label="Semesterlöner till företagsledare"/>
+            <account number="88" label="Övriga löner till tjänstemän för ej arbetad tid"/>
+            <account number="89" label="Övriga löner till företagsledare för ej arbetad tid"/>
+            <account number="90" label="Förändring av semesterlöneskuld"/>
+            <account number="91" label="Förändring av semesterlöneskuld till tjänstemän"/>
+            <account number="92" label="Förändring av semesterlöneskuld till företagsledare"/>
+        </account-group>
+        <account-group number="3" label="Kostnadsersättningar och förmåner">
+            <account number="00" label="Kostnadsersättningar och förmåner (gruppkonto)"/>
+            <account number="10" label="Kontanta extraersättningar"/>
+            <account number="11" label="Ersättningar för sammanträden m.m."/>
+            <account number="12" label="Ersättningar för förslagsverksamhet och uppfinningar"/>
+            <account number="13" label="Ersättningar för/bidrag till bostadskostnader"/>
+            <account number="14" label="Ersättningar för/bidrag till måltidskostnader"/>
+            <account number="15" label="Ersättningar för/bidrag till resor till och från arbetsplatsen"/>
+            <account number="16" label="Ersättningar för/bidrag till arbetskläder"/>
+            <account number="17" label="Ersättningar för/bidrag till arbetsmaterial och arbetsverktyg"/>
+            <account number="18" label="Felräkningspengar"/>
+            <account number="19" label="Övriga kontanta extraersättningar"/>
+            <account number="20" label="Traktamenten vid tjänsteresa"/>
+            <account number="21" label="Skattefria traktamenten, Sverige"/>
+            <account number="22" label="Skattepliktiga traktamenten, Sverige"/>
+            <account number="23" label="Skattefria traktamenten, utlandet"/>
+            <account number="24" label="Skattepliktiga traktamenten, utlandet"/>
+            <account number="30" label="Bilersättningar"/>
+            <account number="31" label="Skattefria bilersättningar"/>
+            <account number="32" label="Skattepliktiga bilersättningar"/>
+            <account number="33" label="Ersättning för trängselskatt, skattefri"/>
+            <account number="50" label="Ersättningar för föreskrivna arbetskläder"/>
+            <account number="70" label="Representationsersättningar"/>
+            <account number="80" label="Kostnader för förmåner till anställda"/>
+            <account number="81" label="Kostnader för fri bostad"/>
+            <account number="82" label="Kostnader för fria eller subventionerade måltider"/>
+            <account number="83" label="Kostnader för fria resor till och från arbetsplatsen"/>
+            <account number="84" label="Kostnader för fria eller subventionerade arbetskläder"/>
+            <account number="85" label="Kostnader för fri bil"/>
+            <account number="86" label="Subventionerad ränta"/>
+            <account number="87" label="Kostnader för lånedatorer"/>
+            <account number="88" label="Anställdas ersättning för erhållna förmåner"/>
+            <account number="89" label="Övriga kostnader för förmåner"/>
+            <account number="90" label="Övriga kostnadsersättningar och förmåner"/>
+            <account number="91" label="Kostnad för trängselskatteförmån"/>
+            <account number="92" label="Kostnad för förmån av hushållsnära tjänster"/>
+        </account-group>
+        <account-group number="4" label="Pensionskostnader">
+            <account number="00" label="Pensionskostnader (gruppkonto)"/>
+            <account number="10" label="Pensionsförsäkringspremier"/>
+            <account number="11" label="Premier för kollektiva pensionsförsäkringar"/>
+            <account number="12" label="Premier för individuella pensionsförsäkringar"/>
+            <account number="18" label="Återbäring från försäkringsföretag"/>
+            <account number="20" label="Förändring av pensionsskuld"/>
+            <account number="30" label="Avdrag för räntedel i pensionskostnad"/>
+            <account number="40" label="Förändring av pensionsstiftelsekapital"/>
+            <account number="41" label="Avsättning till pensionsstiftelse"/>
+            <account number="48" label="Gottgörelse från pensionsstiftelse"/>
+            <account number="60" label="Pensionsutbetalningar"/>
+            <account number="61" label="Pensionsutbetalningar till f.d. kollektivanställda"/>
+            <account number="62" label="Pensionsutbetalningar till f.d. tjänstemän"/>
+            <account number="63" label="Pensionsutbetalningar till f.d. företagsledare"/>
+            <account number="70" label="Förvaltnings- och kreditförsäkringsavgifter"/>
+            <account number="90" label="Övriga pensionskostnader"/>
+        </account-group>
+        <account-group number="5" label="Sociala och andra avgifter enligt lag och avtal">
+            <account number="00" label="Sociala och andra avgifter enligt lag och avtal (gruppkonto)"/>
+            <account number="10" label="Arbetsgivaravgifter 31,42 %"/>
+            <account number="11" label="Arbetsgivaravgifter för löner och ersättningar"/>
+            <account number="12" label="Arbetsgivaravgifter för förmånsvärden"/>
+            <account number="15" label="Arbetsgivaravgifter på skattepliktiga kostnadsersättningar"/>
+            <account number="16" label="Arbetsgivaravgifter på arvoden"/>
+            <account number="18" label="Arbetsgivaravgifter på bruttolöneavdrag m.m."/>
+            <account number="19" label="Arbetsgivaravgifter för semester- och löneskulder"/>
+            <account number="20" label="Avgifter 16,36 %"/>
+            <account number="21" label="Avgifter för löner och ersättningar"/>
+            <account number="22" label="Avgifter för förmånsvärden"/>
+            <account number="25" label="Avgifter på skattepliktiga kostnadsersättningar"/>
+            <account number="26" label="Avgifter på arvoden"/>
+            <account number="28" label="Avgifter på bruttolöneavdrag m.m."/>
+            <account number="29" label="Avgifter för semester- och löneskulder"/>
+            <account number="30" label="Särskild löneskatt"/>
+            <account number="31" label="Särskild löneskatt för vissa försäkringsersättningar m.m."/>
+            <account number="32" label="Särskild löneskatt pensionskostnader, deklarationspost"/>
+            <account number="33" label="Särskild löneskatt för pensionskostnader"/>
+            <account number="34" label="Särskild löneskatt förvärvsinkomster 6,15 %"/>
+            <account number="50" label="Avkastningsskatt på pensionsmedel"/>
+            <account number="60" label="Arbetsgivaravgifter under 26 år"/>
+            <account number="70" label="Premier för arbetsmarknadsförsäkringar"/>
+            <account number="71" label="Arbetsmarknadsförsäkringar"/>
+            <account number="72" label="Arbetsmarknadsförsäkringar pensionsförsäkringspremier, deklarationspost"/>
+            <account number="80" label="Gruppförsäkringspremier"/>
+            <account number="81" label="Grupplivförsäkringspremier"/>
+            <account number="82" label="Gruppsjukförsäkringspremier"/>
+            <account number="83" label="Gruppolycksfallsförsäkringspremier"/>
+            <account number="89" label="Övriga gruppförsäkringspremier"/>
+            <account number="90" label="Övriga sociala och andra avgifter enligt lag och avtal"/>
+        </account-group>
+        <account-group number="6" label="Övriga personalkostnader">
+            <account number="00" label="Övriga personalkostnader (gruppkonto)"/>
+            <account number="10" label="Utbildning"/>
+            <account number="20" label="Sjuk- och hälsovård"/>
+            <account number="21" label="Sjuk- och hälsovård, avdragsgill"/>
+            <account number="22" label="Sjuk- och hälsovård, ej avdragsgill"/>
+            <account number="23" label="Sjukvårdsförsäkring, ej avdragsgill"/>
+            <account number="30" label="Personalrepresentation"/>
+            <account number="31" label="Personalrepresentation, avdragsgill"/>
+            <account number="32" label="Personalrepresentation, ej avdragsgill"/>
+            <account number="50" label="Sjuklöneförsäkring"/>
+            <account number="70" label="Förändring av personalstiftelsekapital"/>
+            <account number="71" label="Avsättning till personalstiftelse"/>
+            <account number="78" label="Gottgörelse från personalstiftelse"/>
+            <account number="90" label="Övriga personalkostnader"/>
+            <account number="91" label="Personalrekrytering"/>
+            <account number="92" label="Begravningshjälp"/>
+            <account number="93" label="Fritidsverksamhet"/>
+            <account number="99" label="Övriga personalkostnader"/>
+        </account-group>
+        <account-group number="7" label="Nedskrivningar och återföring av nedskrivningar">
+            <account number="10" label="Nedskrivningar av immateriella anläggningstillgångar"/>
+            <account number="20" label="Nedskrivningar av byggnader och mark"/>
+            <account number="30" label="Nedskrivningar av maskiner och inventarier"/>
+            <account number="40" label="Nedskrivningar av vissa omsättningstillgångar"/>
+            <account number="60" label="Återföring av nedskrivningar av immateriella anläggningstillgångar"/>
+            <account number="70" label="Återföring av nedskrivningar av byggnader och mark"/>
+            <account number="80" label="Återföring av nedskrivningar av maskiner och inventarier"/>
+            <account number="90" label="Återföring av nedskrivningar av vissa omsättningstillgångar"/>
+        </account-group>
+        <account-group number="8" label="Avskrivningar enligt plan">
+            <account number="10" label="Avskrivningar på immateriella anläggningstillgångar"/>
+            <account number="11" label="Avskrivningar på balanserade utgifter"/>
+            <account number="12" label="Avskrivningar på koncessioner m.m."/>
+            <account number="13" label="Avskrivningar på patent"/>
+            <account number="14" label="Avskrivningar på licenser"/>
+            <account number="15" label="Avskrivningar på varumärken"/>
+            <account number="16" label="Avskrivningar på hyresrätter"/>
+            <account number="17" label="Avskrivningar på goodwill"/>
+            <account number="19" label="Avskrivningar på övriga immateriella anläggningstillgångar"/>
+            <account number="20" label="Avskrivningar på byggnader och markanläggningar"/>
+            <account number="21" label="Avskrivningar på byggnader"/>
+            <account number="24" label="Avskrivningar på markanläggningar"/>
+            <account number="29" label="Avskrivningar på övriga byggnader"/>
+            <account number="30" label="Avskrivningar på maskiner och inventarier"/>
+            <account number="31" label="Avskrivningar på maskiner och andra tekniska anläggningar"/>
+            <account number="32" label="Avskrivningar på inventarier och verktyg"/>
+            <account number="33" label="Avskrivningar på installationer"/>
+            <account number="34" label="Avskrivningar på bilar och andra transportmedel"/>
+            <account number="35" label="Avskrivningar på datorer"/>
+            <account number="36" label="Avskrivningar på leasade tillgångar"/>
+            <account number="39" label="Avskrivningar på övriga maskiner och inventarier"/>
+            <account number="40" label="Avskrivningar på förbättringsutgifter på annans fastighet"/>
+        </account-group>
+        <account-group number="9" label="Övriga rörelsekostnader">
+            <account number="40" label="Orealiserade positiva/negativa värdeförändringar på säkringsinstrument"/>
+            <account number="60" label="Valutakursförluster på fordringar och skulder av rörelsekaraktär"/>
+            <account number="70" label="Förlust vid avyttring av immateriella och materiella anläggningstillgångar"/>
+            <account number="71" label="Förlust vid avyttring av immateriella anläggningstillgångar"/>
+            <account number="72" label="Förlust vid avyttring av byggnader och mark"/>
+            <account number="73" label="Förlust vid avyttring av maskiner och inventarier"/>
+            <account number="90" label="Övriga rörelsekostnader"/>
+        </account-group>
+    </account-class>
+    <account-class number="8" label="Finansiella och andra inkomster/intäkter och utgifter/kostnader">
+        <account-group number="0" label="Resultat från andelar i koncernföretag">
+            <account number="10" label="Utdelning på andelar i koncernföretag"/>
+            <account number="12" label="Utdelning på andelar i dotterföretag"/>
+            <account number="13" label="Utdelning på andelar i andra koncernföretag"/>
+            <account number="14" label="Koncernbidrag"/>
+            <account number="16" label="Insatsemission, koncernföretag"/>
+            <account number="19" label="Övriga utdelningar på andelar i koncernföretag"/>
+            <account number="20" label="Resultat vid försäljning av andelar i koncernföretag"/>
+            <account number="22" label="Resultat vid försäljning av andelar i dotterföretag"/>
+            <account number="23" label="Resultat vid försäljning av andelar i andra koncernföretag"/>
+            <account number="30" label="Resultatandelar från handelsbolag (dotterföretag)"/>
+            <account number="70" label="Nedskrivningar av andelar i och långfristiga fordringar hos koncernföretag"/>
+            <account number="72" label="Nedskrivningar av andelar i dotterföretag"/>
+            <account number="73" label="Nedskrivningar av andelar i andra koncernföretag"/>
+            <account number="76" label="Nedskrivningar av långfristiga fordringar hos moderföretag"/>
+            <account number="77" label="Nedskrivningar av långfristiga fordringar hos dotterföretag"/>
+            <account number="78" label="Nedskrivningar av långfristiga fordringar hos andra koncernföretag"/>
+            <account number="80" label="Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos koncernföretag"/>
+            <account number="82" label="Återföringar av nedskrivningar av andelar i dotterföretag"/>
+            <account number="83" label="Återföringar av nedskrivningar av andelar i andra koncernföretag"/>
+            <account number="86" label="Återföringar av nedskrivningar av långfristiga fordringar hos moderföretag"/>
+            <account number="87" label="Återföringar av nedskrivningar av långfristiga fordringar hos dotterföretag"/>
+            <account number="88" label="Återföringar av nedskrivningar av långfristiga fordringar hos andra koncernföretag"/>
+        </account-group>
+        <account-group number="1" label="Resultat från andelar i intresseföretag">
+            <account number="10" label="Utdelningar på andelar i intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="11" label="Utdelningar på andelar i intresseföretag"/>
+            <account number="12" label="Utdelningar på andelar i gemensamt styrda företag"/>
+            <account number="13" label="Utdelningar på andelar i övriga företag som det finns ett ägarintresse i"/>
+            <account number="16" label="Insatsemission, intresseföretag"/>
+            <account number="17" label="Insatsemission, gemensamt styrda företag"/>
+            <account number="18" label="Insatsemission, övriga företag som det finns ett ägarintresse i"/>
+            <account number="20" label="Resultat vid försäljning av andelar i intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i"/>
+            <account number="21" label="Resultat vid försäljning av andelar i intresseföretag"/>
+            <account number="22" label="Resultat vid försäljning av andelar i gemensamt styrda företag"/>
+            <account number="23" label="Resultat vid försäljning av andelar i övriga företag som det finns ett ägarintresse i"/>
+            <account number="30" label="Resultatandelar från handelsbolag (intresseföretag, gemensamt styrda företag och övriga företag som det finns ett ägarintresse i)"/>
+            <account number="31" label="Resultatandelar från handelsbolag (intresseföretag)"/>
+            <account number="32" label="Resultatandelar från handelsbolag (gemensamt styrda företag)"/>
+            <account number="33" label="Resultatandelar från handelsbolag (övriga företag som det finns ett ägarintresse i)"/>
+            <account number="70" label="Nedskrivningar av andelar i och långfristiga fordringar hos intresseföretag"/>
+            <account number="71" label="Nedskrivningar av andelar i intresseföretag"/>
+            <account number="72" label="Nedskrivningar av långfristiga fordringar hos intresseföretag"/>
+            <account number="73" label="Nedskrivningar av andelar i gemensamt styrda företag"/>
+            <account number="74" label="Nedskrivningar av långfristiga fordringar hos gemensamt styrda företag"/>
+            <account number="76" label="Nedskrivningar av andelar i övriga företag som det finns ett ägarintresse i"/>
+            <account number="77" label="Nedskrivningar av långfristiga fordringar hos övriga företag som det finns ett ägarintresse i"/>
+            <account number="80" label="Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos intresseföretag"/>
+            <account number="81" label="Återföringar av nedskrivningar av andelar i intresseföretag"/>
+            <account number="82" label="Återföringar av nedskrivningar av långfristiga fordringar hos intresseföretag"/>
+            <account number="83" label="Återföringar av nedskrivningar av andelar i gemensamt styrda företag"/>
+            <account number="84" label="Återföringar av nedskrivningar av långfristiga fordringar hos gemensamt styrda företag"/>
+            <account number="86" label="Återföringar av nedskrivningar av andelar i övriga företag som det finns ett ägarintresse i"/>
+            <account number="87" label="Återföringar av nedskrivningar av långfristiga fordringar hos övriga företag som det finns ett ägarintresse i"/>
+        </account-group>
+        <account-group number="2" label="Resultat från övriga värdepapper och långfristiga fordringar (anläggningstillgångar)">
+            <account number="10" label="Utdelningar på andelar i andra företag"/>
+            <account number="12" label="Utdelningar, övriga företag"/>
+            <account number="16" label="Insatsemissioner, övriga företag"/>
+            <account number="20" label="Resultat vid försäljning av värdepapper i och långfristiga fordringar hos andra företag"/>
+            <account number="21" label="Resultat vid försäljning av andelar i andra företag"/>
+            <account number="22" label="Resultat vid försäljning av långfristiga fordringar hos andra företag"/>
+            <account number="23" label="Resultat vid försäljning av derivat (långfristiga värdepappersinnehav)"/>
+            <account number="30" label="Valutakursdifferenser på långfristiga fordringar"/>
+            <account number="31" label="Valutakursvinster på långfristiga fordringar"/>
+            <account number="36" label="Valutakursförluster på långfristiga fordringar"/>
+            <account number="40" label="Resultatandelar från handelsbolag (andra företag)"/>
+            <account number="50" label="Ränteintäkter från långfristiga fordringar hos och värdepapper i andra företag"/>
+            <account number="51" label="Ränteintäkter från långfristiga fordringar"/>
+            <account number="52" label="Ränteintäkter från övriga värdepapper"/>
+            <account number="54" label="Skattefria ränteintäkter, långfristiga tillgångar"/>
+            <account number="60" label="Ränteintäkter från långfristiga fordringar hos koncernföretag"/>
+            <account number="61" label="Ränteintäkter från långfristiga fordringar hos moderföretag"/>
+            <account number="62" label="Ränteintäkter från långfristiga fordringar hos dotterföretag"/>
+            <account number="63" label="Ränteintäkter från långfristiga fordringar hos andra koncernföretag"/>
+            <account number="70" label="Nedskrivningar av innehav av andelar i och långfristiga fordringar hos andra företag"/>
+            <account number="71" label="Nedskrivningar av andelar i andra företag"/>
+            <account number="72" label="Nedskrivningar av långfristiga fordringar hos andra företag"/>
+            <account number="73" label="Nedskrivningar av övriga värdepapper hos andra företag"/>
+            <account number="80" label="Återföringar av nedskrivningar av andelar i och långfristiga fordringar hos andra företag"/>
+            <account number="81" label="Återföringar av nedskrivningar av andelar i andra företag"/>
+            <account number="82" label="Återföringar av nedskrivningar av långfristiga fordringar hos andra företag"/>
+            <account number="83" label="Återföringar av nedskrivningar av övriga värdepapper i andra företag"/>
+            <account number="90" label="Värdering till verkligt värde, anläggningstillgångar"/>
+            <account number="91" label="Orealiserade värdeförändringar på anläggningstillgångar"/>
+            <account number="95" label="Orealiserade värdeförändringar på derivatinstrument"/>
+        </account-group>
+        <account-group number="3" label="Övriga ränteintäkter och liknande resultatposter">
+            <account number="10" label="Ränteintäkter från omsättningstillgångar"/>
+            <account number="11" label="Ränteintäkter från bank"/>
+            <account number="12" label="Ränteintäkter från kortfristiga placeringar"/>
+            <account number="13" label="Ränteintäkter från kortfristiga fordringar"/>
+            <account number="14" label="Skattefria ränteintäkter"/>
+            <account number="17" label="Ränteintäkter för dold räntekompensation"/>
+            <account number="19" label="Övriga ränteintäkter från omsättningstillgångar"/>
+            <account number="20" label="Värdering till verkligt värde, omsättningstillgångar"/>
+            <account number="21" label="Orealiserade värdeförändringar på omsättningstillgångar"/>
+            <account number="25" label="Orealiserade värdeförändringar på derivatinstrument (oms.-tillg.)"/>
+            <account number="30" label="Valutakursdifferenser på kortfristiga fordringar och placeringar"/>
+            <account number="31" label="Valutakursvinster på kortfristiga fordringar och placeringar"/>
+            <account number="36" label="Valutakursförluster på kortfristiga fordringar och placeringar"/>
+            <account number="40" label="Utdelningar på kortfristiga placeringar"/>
+            <account number="50" label="Resultat vid försäljning av kortfristiga placeringar"/>
+            <account number="60" label="Övriga ränteintäkter från koncernföretag"/>
+            <account number="61" label="Övriga ränteintäkter från moderföretag"/>
+            <account number="62" label="Övriga ränteintäkter från dotterföretag"/>
+            <account number="63" label="Övriga ränteintäkter från andra koncernföretag"/>
+            <account number="70" label="Nedskrivningar av kortfristiga placeringar"/>
+            <account number="80" label="Återföringar av nedskrivningar av kortfristiga placeringar"/>
+            <account number="90" label="Övriga finansiella intäkter"/>
+        </account-group>
+        <account-group number="4" label="Räntekostnader och liknande resultatposter">
+            <account number="00" label="Räntekostnader (gruppkonto)"/>
+            <account number="10" label="Räntekostnader för långfristiga skulder"/>
+            <account number="11" label="Räntekostnader för obligations-, förlags- och konvertibla lån"/>
+            <account number="12" label="Räntedel i årets pensionskostnad"/>
+            <account number="13" label="Räntekostnader för checkräkningskredit"/>
+            <account number="14" label="Räntekostnader för byggnadskreditiv"/>
+            <account number="15" label="Räntekostnader för andra skulder till kreditinstitut"/>
+            <account number="17" label="Räntekostnader för dold räntekompensation m.m."/>
+            <account number="18" label="Avdragspost för räntesubventioner"/>
+            <account number="19" label="Övriga räntekostnader för långfristiga skulder"/>
+            <account number="20" label="Räntekostnader för kortfristiga skulder"/>
+            <account number="21" label="Räntekostnader till kreditinstitut"/>
+            <account number="22" label="Dröjsmålsräntor för leverantörsskulder"/>
+            <account number="23" label="Räntekostnader för skatter och avgifter"/>
+            <account number="29" label="Övriga räntekostnader för kortfristiga skulder"/>
+            <account number="30" label="Valutakursdifferenser på skulder"/>
+            <account number="31" label="Valutakursvinster på skulder"/>
+            <account number="36" label="Valutakursförluster på skulder"/>
+            <account number="40" label="Erhållna räntebidrag"/>
+            <account number="50" label="Orealiserade värdeförändringar på skulder"/>
+            <account number="51" label="Orealiserade värdeförändringar på skulder"/>
+            <account number="55" label="Orealiserade värdeförändringar på säkringsinstrument"/>
+            <account number="60" label="Räntekostnader till koncernföretag"/>
+            <account number="61" label="Räntekostnader till moderföretag"/>
+            <account number="62" label="Räntekostnader till dotterföretag"/>
+            <account number="63" label="Räntekostnader till andra koncernföretag"/>
+            <account number="80" label="Aktiverade ränteutgifter"/>
+            <account number="90" label="Övriga skuldrelaterade poster"/>
+            <account number="91" label="Erhållet ackord på skulder till kreditinstitut m.m."/>
+        </account-group>
+        <account-group number="5" label="(Fri kontogrupp)"/>
+        <account-group number="6" label="(Fri kontogrupp)"/>
+        <account-group number="7" label="Extraordinära intäkter och kostnader">
+            <account number="10" label="Extraordinära intäkter"/>
+            <account number="50" label="Extraordinära kostnader"/>
+        </account-group>
+        <account-group number="8" label="Bokslutsdispositioner">
+            <account number="10" label="Förändring av periodiseringsfond"/>
+            <account number="11" label="Avsättning till periodiseringsfond"/>
+            <account number="19" label="Återföring från periodiseringsfond"/>
+            <account number="20" label="Mottagna koncernbidrag"/>
+            <account number="30" label="Lämnade koncernbidrag"/>
+            <account number="40" label="Lämnade gottgörelser"/>
+            <account number="50" label="Förändring av överavskrivningar"/>
+            <account number="51" label="Förändring av överavskrivningar, immateriella anläggningstillgångar"/>
+            <account number="52" label="Förändring av överavskrivningar, byggnader och markanläggningar"/>
+            <account number="53" label="Förändring av överavskrivningar, maskiner och inventarier"/>
+            <account number="60" label="Förändring av ersättningsfond"/>
+            <account number="61" label="Avsättning till ersättningsfond för inventarier"/>
+            <account number="62" label="Avsättning till ersättningsfond för byggnader och markanläggningar"/>
+            <account number="63" label="Avsättning till ersättningsfond för mark"/>
+            <account number="64" label="Avsättning till ersättningsfond för djurlager i jordbruk och renskötsel"/>
+            <account number="65" label="Ianspråktagande av ersättningsfond för avskrivningar"/>
+            <account number="66" label="Ianspråktagande av ersättningsfond för annat än avskrivningar"/>
+            <account number="69" label="Återföring från ersättningsfond"/>
+            <account number="80" label="Förändring av obeskattade intäkter"/>
+            <account number="81" label="Avsättning till upphovsmannakonto"/>
+            <account number="82" label="Återföring från upphovsmannakonto"/>
+            <account number="85" label="Avsättning till skogskonto"/>
+            <account number="86" label="Återföring från skogskonto"/>
+            <account number="90" label="Övriga bokslutsdispositioner"/>
+            <account number="91" label="Förändring av skillnad mellan bokförd och faktisk pensionsskuld"/>
+            <account number="92" label="Nedskrivningar av konsolideringskaraktär av anläggningstillgångar"/>
+            <account number="96" label="Förändring av lagerreserv"/>
+            <account number="99" label="Övriga bokslutsdispositioner"/>
+        </account-group>
+        <account-group number="9" label="Skatter och årets resultat">
+            <account number="10" label="Skatt som belastar årets resultat"/>
+            <account number="20" label="Skatt på grund av ändrad beskattning"/>
+            <account number="30" label="Restituerad skatt"/>
+            <account number="40" label="Uppskjuten skatt"/>
+            <account number="80" label="Övriga skatter"/>
+            <account number="90" label="Resultat"/>
+            <account number="99" label="Årets resultat"/>
+        </account-group>
+    </account-class>
+</accounting-plan>

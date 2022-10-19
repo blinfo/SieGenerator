@@ -1,0 +1,91 @@
+SNI 2007;;;
+;;;
+Huvudgrupp;Benämning ;SNI2007Avdelning;Aktivitetsart
+01;Jordbruk och jakt samt service i anslutning härtill;A;Jordbruk, skogsbruk och fiske
+02;Skogsbruk;A;Jordbruk, skogsbruk och fiske
+03;Fiske och vattenbruk;A;Jordbruk, skogsbruk och fiske
+05;Kolutvinning;B;Utvinning av mineral
+06;Utvinning av råpetroleum och naturgas;B;Utvinning av mineral
+07;Utvinning av metallmalmer;B;Utvinning av mineral
+08;Annan utvinning av mineral;B;Utvinning av mineral
+09;Service till utvinning;B;Utvinning av mineral
+10;Livsmedelsframställning;C;Tillverkning
+11;Framställning av drycker;C;Tillverkning
+12;Tobaksvarutillverkning;C;Tillverkning
+13;Textilvarutillverkning;C;Tillverkning
+14;Tillverkning av kläder;C;Tillverkning
+15;Tillverkning av läder, läder- och skinnvaror m.m.;C;Tillverkning
+16;Tillverkning av trä och varor av trä, kork, rotting o.d. utom möbler;C;Tillverkning
+17;Pappers- och pappersvarutillverkning;C;Tillverkning
+18;Grafisk produktion och reproduktion av inspelningar;C;Tillverkning
+19;Tillverkning av stenkolsprodukter och raffinerade petroleumprodukter;C;Tillverkning
+20;Tillverkning av kemikalier och kemiska produkter;C;Tillverkning
+21;Tillverkning av farmaceutiska basprodukter och läkemedel;C;Tillverkning
+22;Tillverkning av gummi- och plastvaror;C;Tillverkning
+23;Tillverkning av andra icke-metalliska mineraliska produkter;C;Tillverkning
+24;Stål- och metallframställning;C;Tillverkning
+25;Tillverkning av metallvaror utom maskiner och apparater;C;Tillverkning
+26;Tillverkning av datorer, elektronikvaror och optik;C;Tillverkning
+27;Tillverkning av elapparatur;C;Tillverkning
+28;Tillverkning av övriga maskiner;C;Tillverkning
+29;Tillverkning av motorfordon, släpfordon och påhängsvagnar;C;Tillverkning
+30;Tillverkning av andra transportmedel;C;Tillverkning
+31;Tillverkning av möbler;C;Tillverkning
+32;Annan tillverkning;C;Tillverkning
+33;Reparation och installation av maskiner och apparater;C;Tillverkning
+35;Försörjning av el, gas, värme och kyla;D;Försörjning av el, gas, värme och kyla
+36;Vattenförsörjning;E;"Vattenförsörjning; avloppsrening, avfallshantering och sanering"
+37;Avloppsrening;E;"Vattenförsörjning; avloppsrening, avfallshantering och sanering"
+38;"Avfallshantering; återvinning";E;"Vattenförsörjning; avloppsrening, avfallshantering och sanering"
+39;Sanering, efterbehandling av jord och vatten samt annan verksamhet för föroreningsbekämpning;E;"Vattenförsörjning; avloppsrening, avfallshantering och sanering"
+41;Byggande av hus;F;Byggverksamhet
+42;Anläggningsarbeten;F;Byggverksamhet
+43;Specialiserad bygg- och anläggningsverksamhet;F;Byggverksamhet
+45;Handel samt reparation av motorfordon och motorcyklar;G;"Handel; reparation av motorfordon och motorcyklar"
+46;Parti- och provisionshandel utom med motorfordon;G;"Handel; reparation av motorfordon och motorcyklar"
+47;Detaljhandel utom med motorfordon och motorcyklar;G;"Handel; reparation av motorfordon och motorcyklar"
+49;"Landtransport; transport i rörsystem";H;Transport och magasinering
+50;Sjötransport;H;Transport och magasinering
+51;Lufttransport;H;Transport och magasinering
+52;Magasinering och stödtjänster till transport;H;Transport och magasinering
+53;Post- och kurirverksamhet;H;Transport och magasinering
+55;Hotell- och logiverksamhet;I;Hotell- och restaurangverksamhet
+56;Restaurang-, catering- och barverksamhet;I;Hotell- och restaurangverksamhet
+58;Förlagsverksamhet;J;Informations- och kommunikationsverksamhet
+59;Film-, video- och tv-programverksamhet, ljudinspelningar och fonogramutgivning;J;Informations- och kommunikationsverksamhet
+60;Planering och sändning av program;J;Informations- och kommunikationsverksamhet
+61;Telekommunikation;J;Informations- och kommunikationsverksamhet
+62;Dataprogrammering, datakonsultverksamhet o.d.;J;Informations- och kommunikationsverksamhet
+63;Informationstjänster;J;Informations- och kommunikationsverksamhet
+64;Finansiella tjänster utom försäkring och pensionsfondsverksamhet;K;Finans- och försäkringsverksamhet
+65;Försäkring, återförsäkring och pensionsfondsverksamhet utom obligatorisk socialförsäkring;K;Finans- och försäkringsverksamhet
+66;Stödtjänster till finansiella tjänster och försäkring;K;Finans- och försäkringsverksamhet
+68;Fastighetsverksamhet;L;Fastighetsverksamhet
+69;Juridisk och ekonomisk konsultverksamhet;M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+70;"Verksamheter som utövas av huvudkontor; konsulttjänster till företag";M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+71;"Arkitekt- och teknisk konsultverksamhet; teknisk provning och analys";M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+72;Vetenskaplig forskning och utveckling;M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+73;Reklam och marknadsundersökning;M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+74;Annan verksamhet inom juridik, ekonomi, vetenskap och teknik;M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+75;Veterinärverksamhet;M;Verksamhet inom juridik, ekonomi, vetenskap och teknik
+77;Uthyrning och leasing;N;Uthyrning, fastighetsservice, resetjänster och andra stödtjänster
+78;Arbetsförmedling, bemanning och andra personalrelaterade tjänster;N;Uthyrning, fastighetsservice, resetjänster och andra stödtjänster
+79;Resebyrå- och researrangörsverksamhet och andra resetjänster och relaterade tjänster;N;Uthyrning, fastighetsservice, resetjänster och andra stödtjänster
+80;Säkerhets- och bevakningsverksamhet;N;Uthyrning, fastighetsservice, resetjänster och andra stödtjänster
+81;Fastighetsservice samt skötsel och underhåll av grönytor;N;Uthyrning, fastighetsservice, resetjänster och andra stödtjänster
+82;Kontorstjänster och andra företagstjänster;N;Uthyrning, fastighetsservice, resetjänster och andra stödtjänster
+84;"Offentlig förvaltning och försvar;  obligatorisk socialförsäkring";O;"Offentlig förvaltning och försvar; obligatorisk socialförsäkring"
+85;Utbildning;P;Utbildning
+86;Hälso- och sjukvård;Q;"Vård och omsorg; sociala tjänster"
+87;Vård och omsorg med boende;Q;"Vård och omsorg; sociala tjänster"
+88;Öppna sociala insatser;Q;"Vård och omsorg; sociala tjänster"
+90;Konstnärlig och kulturell verksamhet samt underhållningsverksamhet;R;Kultur, nöje och fritid
+91;Biblioteks-, arkiv- och museiverksamhet m.m.;R;Kultur, nöje och fritid
+92;Spel- och vadhållningsverksamhet;R;Kultur, nöje och fritid
+93;Sport-, fritids- och nöjesverksamhet;R;Kultur, nöje och fritid
+94;"Intressebevakning; religiös verksamhet";S;Annan serviceverksamhet
+95;Reparation av datorer, hushållsartiklar och personliga artiklar;S;Annan serviceverksamhet
+96;Andra konsumenttjänster;S;Annan serviceverksamhet
+97;Förvärvsarbete i hushåll;T;"Förvärvsarbete i hushåll; hushållens produktion av diverse varor och tjänster för eget bruk"
+98;Hushållens produktion av diverse varor och tjänster för eget bruk;T;"Förvärvsarbete i hushåll; hushållens produktion av diverse varor och tjänster för eget bruk"
+99;Verksamhet vid internationella organisationer, utländska ambassader o.d.;U;Verksamhet vid internationella organisationer, utländska ambassader o.d.

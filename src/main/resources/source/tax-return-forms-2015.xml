@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE forms PUBLIC "-//BLINFO.SE//DTD COUNTRY 1.0//SV" "http://docs.blinfo.se/DTD/TaxReturnForms/1.0/tax-return-forms.dtd">
+
+<!--
+    Document   : tax-return-forms-2014.xml
+    Created on : 05 februari 2015
+    Author     : ha
+    Description: XML-representation of tax return forms with standardised
+                 accounting statement codes (SRU) coupled with accounts.
+-->
+
+
+<forms year-of-tax-return="2015">
+    <form name="INK2" description="Aktiebolag, ekonomiska föreningar m fl">
+        <field code="7201" field="2.1" description="Koncessioner, patent, licenser, varumärken, hyresrätter, goodwill och liknande rättigheter">
+            <accounts number="10"/>
+            <excluded-accounts number="1088"/>
+        </field>
+        <field code="7202" field="2.2" description="Förskott avseende immateriella anläggningstillgångar">
+            <accounts number="1088"/>
+        </field>
+        <field code="7214" field="2.3" description="Byggnader och mark">
+            <accounts number="11"/>
+            <excluded-accounts number="112"/>
+            <excluded-accounts number="118"/>
+        </field>
+        <field code="7215" field="2.4" description="Maskiner, inventarier och övriga materiella anläggningstillgångar">
+            <accounts number="12"/>
+            <excluded-accounts number="128"/>
+        </field>
+        <field code="7216" field="2.5" description="Förbättringsutgifter på annans fastighet">
+            <accounts number="112"/>
+        </field>
+        <field code="7217" field="2.6" description="Pågående nyanläggningar och förskott avseende materiella anläggningstillgångar">
+            <accounts number="118"/>
+            <accounts number="128"/>
+        </field>
+        <field code="7230" field="2.7" description="Andelar i koncernföretag">
+            <accounts number="131"/>
+        </field>
+        <field code="7231" field="2.8" description="Andelar i intresseföretag">
+            <accounts number="133"/>
+        </field>
+        <field code="7232" field="2.9" description="Fordringar hos koncern- och intresseföretag">
+            <accounts number="132"/>
+            <accounts number="134"/>
+        </field>
+        <field code="7233" field="2.10" description="Andra långfristiga värdepappersinnehav">
+            <accounts number="135"/>
+        </field>
+        <field code="7234" field="2.11" description="Lån till delägare eller närstående">
+            <accounts number="136"/>
+        </field>
+        <field code="7235" field="2.12" description="Andra långfristiga fordringar">
+            <accounts number="137"/>
+            <accounts number="138"/>
+        </field>
+        <field code="7241" field="2.13" description="Råvaror och förnödenheter">
+            <accounts number="141"/>
+            <accounts number="142"/>
+            <accounts number="1430"/>
+            <accounts number="1431"/>
+            <accounts number="1438"/>
+        </field>
+        <field code="7242" field="2.14" description="Varor under tillverkning">
+            <accounts number="1430"/>
+            <accounts number="1432"/>
+            <accounts number="1439"/>
+            <accounts number="144"/>
+        </field>
+        <field code="7243" field="2.15" description="Färdiga varor och handelsvaror">
+            <accounts number="145"/>
+            <accounts number="146"/>
+        </field>
+        <field code="7244" field="2.16" description="Övriga lagertillgångar">
+            <accounts number="149"/>
+        </field>
+        <field code="7245" field="2.17" description="Pågående arbeten för annans räkning">
+            <accounts number="147"/>
+        </field>
+        <field code="7246" field="2.18" description="Förskott till leverantörer">
+            <accounts number="148"/>
+        </field>
+        <field code="7251" field="2.19" description="Kundfordringar">
+            <accounts number="15"/>
+            <excluded-accounts number="156"/>
+            <excluded-accounts number="157"/>
+            <excluded-accounts number="159"/>
+        </field>
+        <field code="7252" field="2.20" description="Fordringar hos koncern- och intresseföretag">
+            <accounts number="156"/>
+            <accounts number="157"/>
+            <accounts number="166"/>
+            <accounts number="167"/>
+        </field>
+        <field code="7261" field="2.21" description="Övriga fordringar">
+            <accounts number="16"/>
+            <excluded-accounts number="162"/>
+            <excluded-accounts number="166"/>
+            <excluded-accounts number="167"/>
+        </field>
+        <field code="7262" field="2.22" description="Upparbetad men ej fakturerad intäkt">
+            <accounts number="162"/>
+        </field>
+        <field code="7263" field="2.23" description="Förutbetalda kostnader och upplupna intäkter">
+            <accounts number="17"/>
+        </field>
+        <field code="7270" field="2.24" description="Andelar i koncernföretag">
+            <accounts number="186"/>
+        </field>
+        <field code="7271" field="2.25" description="Övriga kortfristiga placeringar">
+            <accounts number="18"/>
+            <excluded-accounts number="186"/>
+        </field>
+        <field code="7281" field="2.26" description="Kassa, bank och redovisningsmedel">
+            <accounts number="19"/>
+        </field>
+        <field code="7301" field="2.27" description="Bundet eget kapital">
+            <accounts number="208"/>
+        </field>
+        <field code="7302" field="2.28" description="Fritt eget kapital">
+            <accounts number="209"/>
+        </field>
+        <field code="7321" field="2.29" description="Periodiseringsfonder">
+            <accounts number="211"/>
+            <accounts number="212"/>
+        </field>
+        <field code="7322" field="2.30" description="Ackumulerade överavskrivningar">
+            <accounts number="215"/>
+        </field>
+        <field code="7323" field="2.31" description="Övriga obeskattade reserver">
+            <accounts number="216"/>
+            <accounts number="217"/>
+            <accounts number="218"/>
+            <accounts number="219"/>
+        </field>
+        <field code="7331" field="2.32" description="Avsättningar för pensioner och liknande förpliktelser enligt lagen (1967:531) om tryggande av pensionsutfästelserr mm">
+            <accounts number="221"/>
+        </field>
+        <field code="7332" field="2.33" description="Övriga avsättningar för pensioner och liknande förpliktelser">
+            <accounts number="223"/>
+        </field>
+        <field code="7333" field="2.34" description="Övriga avsättningar">
+            <accounts number="22"/>
+            <excluded-accounts number="221"/>
+            <excluded-accounts number="223"/>
+        </field>
+        <field code="7350" field="2.35" description="Obligationslån">
+            <accounts number="231"/>
+            <accounts number="232"/>
+        </field>
+        <field code="7351" field="2.36" description="Checkräkningskredit">
+            <accounts number="233"/>
+        </field>
+        <field code="7352" field="2.37" description="Övriga skulder till kreditinstitut">
+            <accounts number="234"/>
+            <accounts number="235"/>
+        </field>
+        <field code="7353" field="2.38" description="Skulder till koncern- och intresseföretag">
+            <accounts number="236"/>
+            <accounts number="237"/>
+        </field>
+        <field code="7354" field="2.39" description="Övriga skulder">
+            <accounts number="238"/>
+            <accounts number="239"/>
+        </field>
+        <field code="7360" field="2.40" description="Checkräkningskredit">
+            <accounts number="248"/>
+        </field>
+        <field code="7361" field="2.41" description="Övriga skulder till kreditinstitut">
+            <accounts number="241"/>
+        </field>
+        <field code="7362" field="2.42" description="Förskott från kunder">
+            <accounts number="242"/>
+        </field>
+        <field code="7363" field="2.43" description="Pågående arbeten för annans räkning">
+            <accounts number="243"/>
+        </field>
+        <field code="7364" field="2.44" description="Fakturerad men ej upparbetad intäkt">
+            <accounts number="245"/>
+        </field>
+        <field code="7365" field="2.45" description="Leverantörsskulder">
+            <accounts number="244"/>
+        </field>
+        <field code="7366" field="2.46" description="Växelskulder">
+            <accounts number="2492"/>
+        </field>
+        <field code="7367" field="2.47" description="Skulder till koncern- och intresseföretag">
+            <accounts number="246"/>
+            <accounts number="247"/>
+            <accounts number="286"/>
+            <accounts number="287"/>
+        </field>
+        <field code="7368" field="2.48" description="Skatteskulder">
+            <accounts number="25"/>
+        </field>
+        <field code="7369" field="2.49" description="Övriga skulder">
+            <accounts number="249"/>
+            <accounts number="260"/>
+            <accounts number="261" vat-decleared-yearly="false"/>
+            <accounts number="262" vat-decleared-yearly="false"/>
+            <accounts number="263" vat-decleared-yearly="false"/>
+            <accounts number="264" vat-decleared-yearly="false"/>
+            <accounts number="265" vat-decleared-yearly="false"/>
+            <accounts number="266"/>
+            <accounts number="267"/>
+            <accounts number="268"/>
+            <accounts number="269"/>
+            <accounts number="27"/>
+            <accounts number="288"/>
+            <accounts number="289"/>
+            <excluded-accounts number="2492"/>
+        </field>
+        <field code="7370" field="2.50" description="Upplupna kostnader och förutbetalda intäkter">
+            <accounts number="29"/>
+        </field>
+        <field code="7410" field="3.1" description="Nettoomsättning">
+            <accounts number="3"/>
+            <excluded-accounts number="38"/>
+            <excluded-accounts number="39"/>
+        </field>
+        <field income-code="7411" cost-code="7510" field="3.2" description="Förändring av lager av produkter i arbete, färdiga varor och pågående arbete för annans räkning">
+            <accounts number="49"/>
+            <excluded-accounts number="491"/>
+            <excluded-accounts number="492"/>
+            <excluded-accounts number="4930"/>
+            <excluded-accounts number="4931"/>
+            <excluded-accounts number="496"/>
+            <excluded-accounts number="498"/>
+        </field>
+        <field code="7412" field="3.3" description="Aktiverat arbete för egen räkning">
+            <accounts number="38"/>
+        </field>
+        <field code="7413" field="3.4" description="Övriga rörelseintäkter">
+            <accounts number="39"/>
+        </field>
+        <field code="7511" field="3.5" description="Råvaror och förnödenheter">
+            <accounts number="40"/>
+            <accounts number="41"/>
+            <accounts number="42"/>
+            <accounts number="43"/>
+            <accounts number="44"/>
+            <accounts number="45"/>
+            <accounts number="46"/>
+            <accounts number="47"/>
+            <accounts number="491"/>
+            <accounts number="492"/>
+            <accounts number="4930"/>
+            <accounts number="4931"/>
+        </field>
+        <field code="7512" field="3.6" description="Handelsvaror">
+            <accounts number="40"/>
+            <accounts number="41"/>
+            <accounts number="42"/>
+            <accounts number="43"/>
+            <accounts number="44"/>
+            <accounts number="45"/>
+            <accounts number="46"/>
+            <accounts number="47"/>
+            <accounts number="496"/>
+            <accounts number="498"/>
+        </field>
+        <field code="7513" field="3.7" description="Övriga externa kostnader">
+            <accounts number="5"/>
+            <accounts number="6"/>
+        </field>
+        <field code="7514" field="3.8" description="Personalkostnader">
+            <accounts number="7"/>
+            <excluded-accounts number="77"/>
+            <excluded-accounts number="78"/>
+            <excluded-accounts number="79"/>
+        </field>
+        <field code="7515" field="3.9" description="Av- och nedskrivningar av materiella och immateriella anläggningstillgångar">
+            <accounts number="77"/>
+            <accounts number="78"/>
+            <excluded-accounts number="774"/>
+            <excluded-accounts number="779"/>
+        </field>
+        <field code="7516" field="3.10" description="Nedskrivningar av omsättningstillgångar utöver normala nedskrivningar">
+            <accounts number="774"/>
+            <accounts number="779"/>
+        </field>
+        <field code="7517" field="3.11" description="Övriga rörelsekostnader">
+            <accounts number="79"/>
+        </field>
+        <field income-code="7414" cost-code="7518" field="3.12" description="Resultat från andelar i koncernföretag">
+            <accounts number="80"/>
+            <excluded-accounts number="807"/>
+            <excluded-accounts number="808"/>
+        </field>
+        <field income-code="7415" cost-code="7519" field="3.13" description="Resultat från andelar i intresseföretag">
+            <accounts number="81"/>
+            <excluded-accounts number="817"/>
+            <excluded-accounts number="818"/>
+        </field>
+        <field income-code="7416" cost-code="7520" field="3.13" description="Resultat från övriga anläggningstillgångar">
+            <accounts number="82"/>
+            <excluded-accounts number="827"/>
+            <excluded-accounts number="828"/>
+        </field>
+        <field code="7417" field="3.15" description="Övriga ränteintäkter och liknande resultatposter">
+            <accounts number="83"/>
+            <excluded-accounts number="837"/>
+            <excluded-accounts number="838"/>
+        </field>
+        <field code="7521" field="3.16" description="Nedskrivningar av finansiella anläggningstillgångar och kortfristiga placeringar">
+            <accounts number="807"/>
+            <accounts number="808"/>
+            <accounts number="817"/>
+            <accounts number="818"/>
+            <accounts number="827"/>
+            <accounts number="828"/>
+            <accounts number="837"/>
+            <accounts number="838"/>
+        </field>
+        <field code="7522" field="3.17" description="Räntekostnader och liknande resultatposter">
+            <accounts number="84"/>
+        </field>
+        <field code="7418" field="3.18" description="Extraordinära intäkter">
+            <accounts number="871"/>
+        </field>
+        <field code="7523" field="3.19" description="Extraordinära kostnader">
+            <accounts number="875"/>
+        </field>
+        <field code="7524" field="3.20" description="Lämnade koncernbidrag">
+            <accounts number="883"/>
+        </field>
+        <field code="7419" field="3.21" description="Mottagna koncernbidrag">
+            <accounts number="882"/>
+        </field>
+        <field code="7420" field="3.22" description="Återföring av periodiseringsfond">
+            <accounts number="8810"/>
+            <accounts number="8819"/>
+        </field>
+        <field code="7525" field="3.23" description="Avsättning till periodiseringsfond">
+            <accounts number="8810"/>
+            <accounts number="8811"/>
+        </field>
+        <field income-code="7526" cost-code="7421" field="3.24" description="Förändring av överavskrivningar">
+            <accounts number="885"/>
+        </field>
+        <field income-code="7422" cost-code="7527" field="3.25" description="Övriga bokslutsdispositioner">
+            <accounts number="886"/>
+            <accounts number="887"/>
+            <accounts number="888"/>
+            <accounts number="889"/>
+            <accounts number="884" result="credit"/>
+        </field>
+        <field code="7528" field="3.26" description="Skatt på årets resultat">
+            <accounts number="89"/>
+            <excluded-accounts number="899"/>
+        </field>
+        <field code="7450" field="3.27" description="Årets resultat, vinst (flyttas till p. 4.1) (+)">
+            <accounts number="899" result="debit"/>
+        </field>
+        <field code="7550" field="3.28" description="Årets resultat, förlust (flyttas till p. 4.2) (-)">
+            <accounts number="899" result="credit"/>
+        </field>
+    </form>
+    <form name="INK3" description="Ideella föreningar, stiftelser  m fl">
+    </form>
+    <form name="INK4" description="Handelsbolag">
+        <field code="7201" field="2.1" description="Koncessioner, patent, licenser, varumärken, hyresrätter, goodwill och liknande rättigheter">
+            <accounts number="10"/>
+            <excluded-accounts number="1088"/>
+        </field>
+        <field code="7202" field="2.2" description="Förskott avseende immateriella anläggningstillgångar">
+            <accounts number="1088"/>
+        </field>        
+        <field code="7214" field="2.3" description="Byggnader och mark">
+            <accounts number="11"/>
+            <excluded-accounts number="112"/>
+            <excluded-accounts number="118"/>
+        </field>
+        <field code="7215" field="2.4" description="Maskiner, inventarier och övriga materiella anläggningstillgångar">
+            <accounts number="12"/>
+            <excluded-accounts number="128"/>
+        </field>
+        <field code="7216" field="2.5" description="Förbättringsutgifter på annans fastighet">
+            <accounts number="112"/>
+        </field>
+        <field code="7217" field="2.6" description="Pågående nyanläggningar och förskott avseende materiella anläggningstillgångar">
+            <accounts number="118"/>
+            <accounts number="128"/>
+        </field>
+        <field code="7236" field="2.7" description="Andelar i koncern- och intresseföretag">
+            <accounts number="131"/>
+            <accounts number="133"/>
+        </field>
+        <field code="7232" field="2.8" description="Fordringar på koncern- och intresseföretag">
+            <accounts number="132"/>
+            <accounts number="134"/>
+        </field>
+        <field code="7237" field="2.9" description="Andra finansiella anläggningstillgångar">
+            <accounts number="135"/>
+            <accounts number="136"/>
+            <accounts number="137"/>
+            <accounts number="138"/>
+        </field>
+        <field code="7247" field="2.10" description="Lagertillgångar">
+            <accounts number="14"/>
+            <excluded-accounts number="147"/>
+            <excluded-accounts number="148"/>
+        </field>
+        <field code="7245" field="2.11" description="Pågående arbeten för annans räkning">
+            <accounts number="147"/>
+        </field>
+        <field code="7246" field="2.12" description="Förskott till leverantör">
+            <accounts number="148"/>
+        </field>
+        <field code="7253" field="2.13" description="Kundfordringar">
+            <accounts number="15"/>
+            <accounts number="166"/>
+            <accounts number="167"/>
+        </field>
+        <field code="7264" field="2.14" description="Övriga fordringar">
+            <accounts number="16"/>
+            <excluded-accounts number="166"/>
+            <excluded-accounts number="167"/>
+        </field>
+        <field code="7263" field="2.15" description="Förutbetalda kostnader och upplupna intäkter">
+            <accounts number="17"/>
+        </field>
+        <field code="7272" field="2.16" description="Övriga kortfristiga placeringar">
+            <accounts number="18"/>
+        </field>
+        <field code="7281" field="2.17" description="Kassa, bank och redovisningsmedel">
+            <accounts number="19"/>
+        </field>
+        <field code="7310" field="2.18" description="Ingående kapital">
+            <accounts number="2010"/>
+            <accounts number="2016"/>
+            <accounts number="2020"/>
+            <accounts number="2026"/>
+            <accounts number="2030"/>
+            <accounts number="2036"/>
+            <accounts number="2040"/>
+            <accounts number="2046"/>
+        </field>
+        <field code="7311" field="2.19" description="Delägarens nettouttag/nettotillskott">
+            <accounts number="2011"/>
+            <accounts number="2012"/>
+            <accounts number="2013"/>
+            <accounts number="2017"/>
+            <accounts number="2018"/>
+            <accounts number="2021"/>
+            <accounts number="2022"/>
+            <accounts number="2023"/>
+            <accounts number="2027"/>
+            <accounts number="2028"/>
+            <accounts number="2031"/>
+            <accounts number="2032"/>
+            <accounts number="2033"/>
+            <accounts number="2037"/>
+            <accounts number="2038"/>
+            <accounts number="2041"/>
+            <accounts number="2042"/>
+            <accounts number="2043"/>
+            <accounts number="2047"/>
+            <accounts number="2048"/>
+        </field>
+        <field code="7312" field="2.20" description="Årets redovisade vinst">
+            <accounts number="2019" result="debit"/>
+            <accounts number="2029" result="debit"/>
+            <accounts number="2039" result="debit"/>
+            <accounts number="2049" result="debit"/>
+        </field>
+        <field code="7313" field="2.21" description="Årets redovisade förlust">
+            <accounts number="2019" result="credit"/>
+            <accounts number="2029" result="credit"/>
+            <accounts number="2039" result="credit"/>
+            <accounts number="2049" result="credit"/>
+        </field>
+        <field code="7314" field="2.22" description="Utgående kapital - Summeras i blanketten">
+            <accounts number="2010"/>
+            <accounts number="2016"/>
+            <accounts number="2020"/>
+            <accounts number="2026"/>
+            <accounts number="2030"/>
+            <accounts number="2036"/>
+            <accounts number="2040"/>
+            <accounts number="2046"/>
+            <accounts number="2011"/>
+            <accounts number="2012"/>
+            <accounts number="2013"/>
+            <accounts number="2017"/>
+            <accounts number="2018"/>
+            <accounts number="2021"/>
+            <accounts number="2022"/>
+            <accounts number="2023"/>
+            <accounts number="2027"/>
+            <accounts number="2028"/>
+            <accounts number="2031"/>
+            <accounts number="2032"/>
+            <accounts number="2033"/>
+            <accounts number="2037"/>
+            <accounts number="2038"/>
+            <accounts number="2041"/>
+            <accounts number="2042"/>
+            <accounts number="2043"/>
+            <accounts number="2047"/>
+            <accounts number="2048"/>
+            <accounts number="2019"/>
+            <accounts number="2029"/>
+            <accounts number="2039"/>
+            <accounts number="2049"/>
+        </field>
+        <field code="7322" field="2.23" description="Ackumulerade överavskrivningar">
+            <accounts number="215"/>
+        </field>
+        <field code="7323" field="2.24" description="Övriga obeskattade reserver">
+            <accounts number="21"/>
+            <excluded-accounts number="215"/>
+        </field>
+        <field code="7331" field="2.25" description="Avsättningar för pensioner och liknande förpliktelser enligt lagen (1967:531) om tryggande av pensionsförpliktelser m.m.">
+            <accounts number="221"/>
+        </field>
+        <field code="7332" field="2.26" description="Övriga avsättningar för pensioner och liknande förpliktelser">
+            <accounts number="223"/>
+        </field>
+        <field code="7333" field="2.27" description="Övriga avsättningar">
+            <accounts number="22"/>
+            <excluded-accounts number="220"/>
+            <excluded-accounts number="221"/>
+            <excluded-accounts number="223"/>
+        </field>
+        <field code="7353" field="2.28" description="Skulder till koncern- och intresseföretag">
+            <accounts number="236"/>
+            <accounts number="237"/>
+        </field>
+        <field code="7355" field="2.29" description="Övriga skulder">
+            <accounts number="23"/>
+            <excluded-accounts number="236"/>
+            <excluded-accounts number="237"/>
+        </field>
+        <field code="7362" field="2.30" description="Förskott för kunder">
+            <accounts number="242"/>
+        </field>
+        <field code="7363" field="2.31" description="Pågående arbeten för annans räkning">
+            <accounts number="243"/>
+        </field>
+        <field code="7365" field="2.32" description="Leverantörsskulder">
+            <accounts number="244"/>
+        </field>
+        <field code="7368" field="2.33" description="Skatteskulder">
+            <accounts number="25"/>
+        </field>
+        <field code="7371" field="2.34" description="Övriga skulder">
+            <accounts number="24"/>
+            <accounts number="26"/>
+            <accounts number="27"/>
+            <accounts number="28"/>
+            <excluded-accounts number="240"/>
+            <excluded-accounts number="242"/>
+            <excluded-accounts number="243"/>
+            <excluded-accounts number="244"/>
+        </field>
+        <field code="7370" field="2.35" description="Upplupna kostnader och förutbetalda intäkter">
+            <accounts number="29"/>
+        </field>
+        <field code="7410" field="3.1" description="Nettoomsättning">
+            <accounts number="3"/>
+            <excluded-accounts number="38"/>
+            <excluded-accounts number="39"/>
+        </field>
+        <field income-code="7411" cost-code="7510" field="3.2" description="Förändring av lager av produkter i arbete, färdiga varor och pågående arbete för annans räkning">
+            <accounts number="49"/>
+            <excluded-accounts number="491"/>
+            <excluded-accounts number="492"/>
+            <excluded-accounts number="4930"/>
+            <excluded-accounts number="4931"/>
+            <excluded-accounts number="496"/>
+            <excluded-accounts number="498"/>
+        </field>
+        <field code="7412" field="3.3" description="Aktiverat arbete för egen räkning">
+            <accounts number="38"/>
+        </field>
+        <field code="7413" field="3.4" description="Övriga rörelseintäkter">
+            <accounts number="39"/>
+        </field>
+        <field code="7511" field="3.5" description="Råvaror och förnödenheter">
+            <accounts number="40"/>
+            <accounts number="41"/>
+            <accounts number="42"/>
+            <accounts number="43"/>
+            <accounts number="44"/>
+            <accounts number="45"/>
+            <accounts number="46"/>
+            <accounts number="47"/>
+            <accounts number="491"/>
+            <accounts number="492"/>
+            <accounts number="4930"/>
+            <accounts number="4931"/>
+        </field>
+        <field code="7512" field="3.6" description="Handelsvaror">
+            <accounts number="40"/>
+            <accounts number="41"/>
+            <accounts number="42"/>
+            <accounts number="43"/>
+            <accounts number="44"/>
+            <accounts number="45"/>
+            <accounts number="46"/>
+            <accounts number="47"/>
+            <accounts number="496"/>
+            <accounts number="498"/>
+        </field>
+        <field code="7513" field="3.7" description="Övriga externa kostnader">
+            <accounts number="5"/>
+            <accounts number="6"/>
+        </field>
+        <field code="7514" field="3.8" description="Personalkostnader">
+            <accounts number="7"/>
+            <excluded-accounts number="77"/>
+            <excluded-accounts number="78"/>
+            <excluded-accounts number="79"/>
+        </field>
+        <field code="7515" field="3.9" description="Av- och nedskrivningar av materiella och immateriella anläggningstillgångar">
+            <accounts number="77"/>
+            <accounts number="78"/>
+            <excluded-accounts number="774"/>
+            <excluded-accounts number="779"/>
+        </field>
+        <field code="7535" field="3.10" description="Övriga rörelsekostnader">
+            <accounts number="774"/>
+            <accounts number="779"/>
+            <accounts number="79"/>
+        </field>
+        <field income-code="7414" cost-code="7518" field="3.11" description="Resultat från andelar i koncernföretag">
+            <accounts number="80"/>
+            <excluded-accounts number="807"/>
+            <excluded-accounts number="808"/>
+        </field>
+        <field income-code="7415" cost-code="7519" field="3.12" description="Resultat från andelar i intresseföretag">
+            <accounts number="81"/>
+            <excluded-accounts number="817"/>
+            <excluded-accounts number="818"/>
+        </field>
+        <field income-code="7416" cost-code="7520" field="3.13" description="Resultat från övriga finansiella anläggningstillgångar">
+            <accounts number="82"/>
+            <excluded-accounts number="827"/>
+            <excluded-accounts number="828"/>
+        </field>
+        <field code="7417" field="3.14" description="Övriga ränteintäkter och liknande resultatposter">
+            <accounts number="83"/>
+            <excluded-accounts number="837"/>
+            <excluded-accounts number="838"/>
+        </field>
+        <field code="7521" field="3.15" description="Nedskrivningar av finansiella anläggningstillgångar och kortfristiga placeringar">
+            <accounts number="807"/>
+            <accounts number="808"/>
+            <accounts number="817"/>
+            <accounts number="818"/>
+            <accounts number="827"/>
+            <accounts number="828"/>
+            <accounts number="837"/>
+            <accounts number="838"/>
+        </field>
+        <field code="7522" field="3.16" description="Räntekostnader och liknande resultatposter">
+            <accounts number="84"/>
+        </field>
+        <field income-code="7427" cost-code="7537" field="3.17" description="Bokslutsdispositioner">
+            <accounts number="87"/>
+            <accounts number="88"/>
+        </field>
+        <field code="7450" field="3.18" description="Årets resultat, vinst (flyttas till p. 4.1)  (+)">
+            <accounts number="899" result="debit"/>
+        </field>
+        <field code="7550" field="3.19" description="Årets resultat, förlust (flyttas till p. 4.2)  (-)">
+            <accounts number="899" result="credit"/>
+        </field>
+    </form>
+    <form name="NEK1" description="Inkomst av näringsverksamhet, enskilda näringsidkare - förenklat årsbokslut, K1-regler">
+        <field code="7200" field="B1" description="Immateriella anläggningstillgångar">
+            <accounts number="1000"/>
+            <accounts number="1009"/>
+        </field>
+        <field code="7210" field="B2" description="Byggnader och markanläggningar">
+            <accounts number="111"/>
+            <accounts number="115"/>
+        </field>
+        <field code="7211" field="B3" description="Mark och andra tillgångar som inte får skrivas av">
+            <accounts number="1130"/>
+            <accounts number="1180"/>
+        </field>
+        <field code="7212" field="B4" description="Maskiner och inventarier">
+            <accounts number="122"/>
+            <accounts number="123"/>
+            <accounts number="124"/>
+        </field>
+        <field code="7213" field="B5" description="Övriga anläggningstillgångar">
+            <accounts number="1300"/>
+        </field>
+        <field code="7240" field="B6" description="Varulager">
+            <accounts number="1400"/>
+        </field>
+        <field code="7250" field="B7" description="Kundfordringar">
+            <accounts number="1500"/>
+        </field>
+        <field code="7260" field="B8" description="Övriga fordringar">
+            <accounts number="1600"/>
+            <accounts number="1650"/>
+            <accounts number="1700"/>
+            <accounts number="1800"/>
+        </field>
+        <field code="7280" field="B9" description="Kassa och bank">
+            <accounts number="1910"/>
+            <accounts number="1920"/>
+            <accounts number="1930"/>
+            <accounts number="1940"/>
+            <accounts number="1970"/>
+        </field>
+        <field code="7300" field="B10" description="Eget kapital">
+            <accounts number="201"/>
+            <accounts number="202"/>
+            <accounts number="203"/>
+            <accounts number="204"/>
+        </field>
+        <field code="7380" field="B13" description="Låneskulder">
+            <accounts number="2330"/>
+            <accounts number="2350"/>
+            <accounts number="2390"/>
+        </field>
+        <field code="7381" field="B14" description="Skatteskulder">
+            <accounts number="261"/>
+            <accounts number="262"/>
+            <accounts number="263"/>
+            <accounts number="264"/>
+            <accounts number="2650"/>
+            <accounts number="2660"/>
+            <accounts number="2710"/>
+            <accounts number="2730"/>
+        </field>
+        <field code="7382" field="B15" description="Leverantörsskulder">
+            <accounts number="2440"/>
+        </field>
+        <field code="7383" field="B16" description="Övriga skulder">
+            <accounts number="2900"/>
+        </field>
+        <field code="7400" field="R1" description="Försäljning och utfört arbete samt övriga momspliktiga intäkter">
+            <accounts number="3000"/>
+            <accounts number="3106"/>
+            <accounts number="3401"/>
+            <accounts number="3402"/>
+            <accounts number="3403"/>
+            <accounts number="3500"/>
+            <accounts number="3700"/>
+            <accounts number="3900"/>
+            <excluded-accounts number="3004"/>
+        </field>
+        <field code="7401" field="R2" description="Momsfria intäkter">
+            <accounts number="3004"/>
+            <accounts number="3100"/>
+            <accounts number="3105"/>
+            <accounts number="3108"/>
+            <accounts number="3231"/>
+            <accounts number="3305"/>
+            <accounts number="3308"/>
+            <accounts number="3404"/>
+            <accounts number="3700"/>
+            <accounts number="3900"/>
+            <accounts number="3970"/>
+            <accounts number="3980"/>
+        </field>
+        <field code="7402" field="R3" description="Bil- och bostadsförmån mm">
+            <accounts number="3200"/>
+        </field>
+        <field code="7403" field="R4" description="Ränteintäkter mm">
+            <accounts number="8310"/>
+            <accounts number="8314"/>
+            <accounts number="8330"/>
+        </field>
+        <field code="7500" field="R5" description="Varor och legoarbeten">
+            <accounts number="4"/>
+        </field>
+        <field code="7501" field="R6" description="Övriga externa kostnader">
+            <accounts number="5000"/>
+            <accounts number="5100"/>
+            <accounts number="5200"/>
+            <accounts number="5400"/>
+            <accounts number="5500"/>
+            <accounts number="5600"/>
+            <accounts number="561"/>
+            <accounts number="5620"/>
+            <accounts number="5700"/>
+            <accounts number="5800"/>
+            <accounts number="5900"/>
+            <accounts number="6000"/>
+            <accounts number="6070"/>
+            <accounts number="6071"/>
+            <accounts number="6072"/>
+            <accounts number="6100"/>
+            <accounts number="6200"/>
+            <accounts number="6300"/>
+            <accounts number="6310"/>
+            <accounts number="6500"/>
+            <accounts number="6800"/>
+            <accounts number="6900"/>
+            <accounts number="6980"/>
+        </field>
+        <field code="7502" field="R7" description="Anställd personal">
+            <accounts number="7000"/>
+            <accounts number="7300"/>
+            <accounts number="7400"/>
+            <accounts number="7500"/>
+            <accounts number="760"/>
+            <accounts number="761"/>
+            <accounts number="762"/>
+            <accounts number="7630"/>
+            <accounts number="7631"/>
+            <accounts number="7632"/>
+        </field>
+        <field code="7503" field="R8" description="Räntekostnader mm">
+            <accounts number="8410"/>
+            <accounts number="8430"/>
+        </field>
+        <field code="7504" field="R9" description="Avskrivningar och nedskrivningar byggnader och markanläggningar">
+            <accounts number="7700"/>
+            <accounts number="7820"/>
+            <accounts number="7980"/>
+        </field>
+        <field code="7505" field="R10" description="Avskrivningar och nedskrivningar maskiner och inventarier och immateriella tillgångar">
+            <accounts number="7810"/>
+            <accounts number="7830"/>
+            <accounts number="7980"/>
+        </field>
+        <field code="7440" field="R11" description="Bokfört resultat">
+            <accounts number="899"/>
+        </field>
+    </form>
+    <form name="NEejK1" description="Inkomst av näringsverksamhet, enskilda näringsidkare - ej förenklat årsbokslut">
+        <field code="7200" field="B1" description="Immateriella anläggningstillgångar">
+            <accounts number="10"/>
+        </field>
+        <field code="7210" field="B2" description="Byggnader och markanläggningar">
+            <accounts number="11"/>
+            <excluded-accounts number="113"/>
+            <excluded-accounts number="114"/>
+            <excluded-accounts number="118"/>
+            <excluded-accounts number="119"/>
+        </field>
+        <field code="7211" field="B3" description="Mark och andra tillgångar som inte får skrivas av">
+            <accounts number="113"/>
+            <accounts number="114"/>
+            <accounts number="118"/>
+            <accounts number="119"/>
+        </field>
+        <field code="7212" field="B4" description="Maskiner och inventarier">
+            <accounts number="12"/>
+        </field>
+        <field code="7213" field="B5" description="Övriga anläggningstillgångar">
+            <accounts number="13"/>
+        </field>
+        <field code="7240" field="B6" description="Varulager">
+            <accounts number="14"/>
+        </field>
+        <field code="7250" field="B7" description="Kundfordringar">
+            <accounts number="15"/>
+        </field>
+        <field code="7260" field="B8" description="Övriga fordringar">
+            <accounts number="16"/>
+            <accounts number="17"/>
+            <accounts number="18"/>
+        </field>
+        <field code="7280" field="B9" description="Kassa och bank">
+            <accounts number="19"/>
+        </field>
+        <field code="7300" field="B10" description="Eget kapital">
+            <accounts number="20"/>
+            <accounts number="21"/>
+            <accounts number="22"/>
+        </field>
+        <field code="7380" field="B13" description="Låneskulder">
+            <accounts number="23"/>
+        </field>
+        <field code="7381" field="B14" description="Skatteskulder">
+            <accounts number="26"/>
+            <accounts number="27"/>
+            <accounts number="28"/>
+        </field>
+        <field code="7382" field="B15" description="Leverantörsskulder">
+            <accounts number="24"/>
+            <accounts number="25"/>
+        </field>
+        <field code="7383" field="B16" description="Övriga skulder">
+            <accounts number="29"/>
+        </field>
+        <field code="7400" field="R1" description="Försäljning och utfört arbete samt övriga momspliktiga intäkter">
+            <accounts number="30"/>
+            <accounts number="3106"/>
+            <accounts number="3401"/>
+            <accounts number="3402"/>
+            <accounts number="3403"/>
+            <accounts number="35"/>
+            <accounts number="36"/>
+            <accounts number="37"/>
+            <accounts number="38"/>
+            <accounts number="390"/>
+            <accounts number="391"/>
+            <accounts number="392"/>
+            <accounts number="393"/>
+            <accounts number="394"/>
+            <accounts number="395"/>
+            <accounts number="396"/>
+            <excluded-accounts number="3004"/>
+        </field>
+        <field code="7401" field="R2" description="Momsfria intäkter">
+            <accounts number="3004"/>
+            <accounts number="31"/>
+            <accounts number="3231"/>
+            <accounts number="3205"/>
+            <accounts number="3208"/>
+            <accounts number="3404"/>
+            <accounts number="397"/>
+            <accounts number="398"/>
+            <accounts number="399"/>
+            <excluded-accounts number="3106"/>
+        </field>
+        <field code="7402" field="R3" description="Bil- och bostadsförmån mm">
+            <accounts number="32"/>
+            <accounts number="33"/>
+            <accounts number="34"/>
+            <excluded-accounts number="3231"/>
+            <excluded-accounts number="3305"/>
+            <excluded-accounts number="3308"/>
+            <excluded-accounts number="3401"/>
+            <excluded-accounts number="3402"/>
+            <excluded-accounts number="3403"/>
+            <excluded-accounts number="3404"/>
+        </field>
+        <field code="7403" field="R4" description="Ränteintäkter mm">
+            <accounts number="831"/>
+            <accounts number="833"/>
+        </field>
+        <field code="7500" field="R5" description="Varor och legoarbeten">
+            <accounts number="4"/>
+        </field>
+        <field code="7501" field="R6" description="Övriga externa kostnader">
+            <accounts number="5"/>
+            <accounts number="6"/>
+        </field>
+        <field code="7502" field="R7" description="Anställd personal">
+            <accounts number="7"/>
+            <excluded-accounts number="77"/>
+            <excluded-accounts number="78"/>
+            <excluded-accounts number="79"/>
+        </field>
+        <field code="7503" field="R8" description="Räntekostnader mm">
+            <accounts number="841"/>
+            <accounts number="843"/>
+        </field>
+        <field code="7504" field="R9" description="Avskrivningar och nedskrivningar byggnader och markanläggningar">
+            <accounts number="770"/>
+            <accounts number="771"/>
+            <accounts number="772"/>
+            <accounts number="782"/>
+        </field>
+        <field code="7505" field="R10" description="Avskrivningar och nedskrivningar maskiner och inventarier och immateriella tillgångar">
+            <accounts number="781"/>
+            <accounts number="783"/>
+            <accounts number="798"/>
+        </field>
+        <field code="7440" field="R11" description="Bokfört resultat">
+            <accounts number="899"/>
+        </field>
+    </form>
+</forms>

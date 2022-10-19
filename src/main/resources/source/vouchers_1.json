@@ -1,0 +1,218 @@
+[
+    {
+        "type": "representation",
+        "text": "Representation, ej avdragsgill",
+        "debit": [
+            {
+                "number": "6072",
+                "amount": 928
+            }
+        ],
+        "vat": {
+            "number": "2640",
+            "amount": 72
+        },
+        "credit": [
+            {
+                "number": "19**",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "rent",
+        "text": "Lokalhyra",
+        "debit": [
+            {
+                "number": "5010",
+                "amount": 1000
+            }
+        ],
+        "credit": [
+            {
+                "number": "19**",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Kundfaktura",
+        "debit": [
+            {
+                "number": "1511",
+                "amount": 1000
+            }
+        ],
+        "vat": {
+            "number": "2611",
+            "amount": -200
+        },
+        "credit": [
+            {
+                "number": "3011",
+                "amount": -800
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Kreditfaktura till kund",
+        "debit": [
+            {
+                "number": "3011",
+                "amount": 800
+            }
+        ],
+        "vat": {
+            "number": "2611",
+            "amount": 200
+        },
+        "credit": [
+            {
+                "number": "1511",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Försäljning 25% moms",
+        "debit": [
+            {
+                "number": "3001",
+                "amount": 800
+            }
+        ],
+        "vat": {
+            "number": "2611",
+            "amount": 200
+        },
+        "credit": [
+            {
+                "number": "19**",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Försäljning 12% moms",
+        "debit": [
+            {
+                "number": "3002",
+                "amount": 892.86
+            }
+        ],
+        "vat": {
+            "number": "2621",
+            "amount": 107.14
+        },
+        "credit": [
+            {
+                "number": "19**",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "sales",
+        "text": "Försäljning 6% moms",
+        "debit": [
+            {
+                "number": "3003",
+                "amount": 943.4
+            }
+        ],
+        "vat": {
+            "number": "2631",
+            "amount": 56.6
+        },
+        "credit": [
+            {
+                "number": "19**",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "purchase",
+        "text": "Varuinköp",
+        "debit": [
+            {
+                "number": "4000",
+                "amount": 1000
+            }
+        ],
+        "vat": {
+            "number": "2641",
+            "amount": -200
+        },
+        "credit": [
+            {
+                "number": "19**",
+                "amount": -800
+            }
+        ]
+    },
+    {
+        "type": "purchase",
+        "text": "Materialinköp",
+        "debit": [
+            {
+                "number": "4000",
+                "amount": 800
+            }
+        ],
+        "vat": {
+            "number": "2641",
+            "amount": 200
+        },
+        "credit": [
+            {
+                "number": "2440",
+                "amount": -1000
+            }
+        ]
+    },
+    {
+        "type": "purchase",
+        "text": "Kreditfaktura från leverantör",
+        "debit": [
+            {
+                "number": "2440",
+                "amount": 1000
+            }
+        ],
+        "vat": {
+            "number": "2641",
+            "amount": -200
+        },
+        "credit": [
+            {
+                "number": "4000",
+                "amount": -800
+            }
+        ]
+    },
+    {
+        "type": "employer_declaration",
+        "text": "Arbetsgivardeklaration",
+        "debit": [
+            {
+                "number": "2440",
+                "amount": 522.20
+            },
+            {
+                "number": "2641",
+                "amount": 477.80
+            }
+        ],
+        "credit": [
+            {
+                "number": "1630",
+                "amount": -1000
+            }
+        ]
+    }
+]
