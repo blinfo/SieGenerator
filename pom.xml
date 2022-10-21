@@ -37,4 +37,16 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+    <distributionManagement>
+        <repository>
+            <id>repos.blinfo.se</id>
+            <name>repos.blinfo.se-releases</name>
+            <url>http://repos.blinfo.se/artifactory/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>repos.blinfo.se</id>
+            <name>repos.blinfo.se-snapshots</name>
+            <url>http://repos.blinfo.se/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
