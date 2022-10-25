@@ -66,6 +66,10 @@ class AmountGenerator implements Generator {
             return mainAmount.add(secondaryAmount).add(vatAmount()).negate();
         }
 
+        BigDecimal totalAmount() {
+            return mainAmount.add(secondaryAmount);
+        }
+        
         @Override
         public String toString() {
             return "VoucherAmount{"
@@ -73,7 +77,7 @@ class AmountGenerator implements Generator {
                     + "secondaryAmount=" + secondaryAmount + ", "
                     + "vatAmount=" + vatAmount() + ", "
                     + "restAmount=" + restAmount() + ", "
-                    + "totalAmount=" + mainAmount.add(secondaryAmount) + ", "
+                    + "totalAmount=" + totalAmount() + ", "
                     + "vatMultiplier=" + vatMultiplier
                     + "}";
         }
