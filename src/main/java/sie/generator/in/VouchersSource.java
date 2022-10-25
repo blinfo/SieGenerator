@@ -84,8 +84,4 @@ public class VouchersSource {
             return Type.of(parser.getText());
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(VouchersSource.list().size());
-    }
 }

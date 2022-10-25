@@ -3,7 +3,7 @@ package sie.generator;
 import java.time.LocalDate;
 import java.time.temporal.*;
 import java.util.*;
-import java.util.concurrent.atomic.*;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.IntStream;
 import sie.domain.*;
 import sie.generator.in.VoucherSeriesSource;
@@ -32,12 +32,13 @@ class VouchersGenerator implements Generator {
     }
 
     private List<Voucher> parse() {
-        return parse("A");
+        return parse(series());
     }
 
     private List<Voucher> parse(String series) {
         LocalDate startDate = years.get(0).getStartDate();
-        long duration = startDate.until(years.get(0).getEndDate(), ChronoUnit.DAYS) + 1;
+        LocalDate endDateExclusive = years.get(0).getEndDate().plusDays(1);
+        long duration = startDate.until(endDateExclusive, ChronoUnit.DAYS);
         AtomicLong days = new AtomicLong(RANDOM.nextLong(3) < 1 ? 0 : 1);
         return IntStream.range(1, MAX_NUMBER_OF_VOUCHERS)
                 .filter(i -> days.get() < duration)
@@ -57,7 +58,8 @@ class VouchersGenerator implements Generator {
     }
 
     private String series() {
-        if (RANDOM.nextInt(3) < 2) {
+        // Always "A" at the moment
+        if (RANDOM.nextInt(3) < 3) {
             return "A";
         }
         return seriesList.get(RANDOM.nextInt(seriesList.size())).getNumber();

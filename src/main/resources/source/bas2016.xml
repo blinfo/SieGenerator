@@ -594,6 +594,7 @@ gjorda för sie generatorn. (Exempelvis några konton i 19-gruppen.)
             <account number="03" label="Försäljning inom Sverige, 6% moms"/>
             <account number="04" label="Försäljning inom Sverige, momsfri"/>
             <account number="10" label="Försäljning"/>
+            <account number="11" label="Försäljning"/>
         </account-group>
         <account-group number="1" label="Försäljning av varor utanför Sverige">
             <account number="00" label="Försäljning av varor utanför Sverige"/>
@@ -1206,6 +1207,7 @@ gjorda för sie generatorn. (Exempelvis några konton i 19-gruppen.)
             <account number="21" label="Sjuk- och hälsovård, avdragsgill"/>
             <account number="22" label="Sjuk- och hälsovård, ej avdragsgill"/>
             <account number="23" label="Sjukvårdsförsäkring, ej avdragsgill"/>
+            <account number="25" label="Rehabilitering"/>
             <account number="30" label="Personalrepresentation"/>
             <account number="31" label="Personalrepresentation, avdragsgill"/>
             <account number="32" label="Personalrepresentation, ej avdragsgill"/>
