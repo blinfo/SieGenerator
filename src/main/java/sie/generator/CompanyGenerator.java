@@ -57,7 +57,7 @@ class CompanyGenerator implements Generator {
         }
         Company.Builder builder = Company.builder(name)
                 .address(address)
-                .corporateID(corporateId)
+                .corporateId(corporateId)
                 .id(generator.getId())
                 .type(type);
         generator.getAquisitionNumber().ifPresent(builder::aquisitionNumber);

@@ -36,8 +36,8 @@ class VouchersGenerator implements Generator {
     }
 
     private List<Voucher> parse(String series) {
-        LocalDate startDate = years.get(0).getStartDate();
-        LocalDate endDateExclusive = years.get(0).getEndDate().plusDays(1);
+        LocalDate startDate = years.get(0).startDate();
+        LocalDate endDateExclusive = years.get(0).endDate().plusDays(1);
         long duration = startDate.until(endDateExclusive, ChronoUnit.DAYS);
         AtomicLong days = new AtomicLong(RANDOM.nextLong(3) < 1 ? 0 : 1);
         return IntStream.range(1, MAX_NUMBER_OF_VOUCHERS)

@@ -39,33 +39,33 @@ public class DocumentGenerator implements Generator {
         List<String> signatures = PersonGenerator.createSignatures(person);
         MetaData meta = MetaDataGenerator.run(date, documentType, noOfYears, person);
         builder.metaData(meta);
-        if (meta.getCompany().getType().orElse(null) == Company.Type.E) {
+        if (meta.getCompany().optType().orElse(null) == Company.Type.E) {
             signatures = List.of(person.getSignature());
         }
-        AccountingPlan accountingPlan = AccountingPlanGenerator.run(meta.getCompany().getType());
+        AccountingPlan accountingPlan = AccountingPlanGenerator.run(meta.getCompany().optType());
         if (documentType.equals(Document.Type.E4) || documentType.equals(Document.Type.I4)) {
-            final List<Voucher> vouchers = VouchersGenerator.run(meta.getFinancialYears(), signatures);
+            final List<Voucher> vouchers = VouchersGenerator.run(meta.financialYears(), signatures);
             builder.vouchers(vouchers);
-            List<String> accountNumbers = vouchers.stream().flatMap(v -> v.getTransactions().stream()).map(t -> t.getAccountNumber()).distinct().sorted().collect(Collectors.toList());
+            List<String> accountNumbers = vouchers.stream().flatMap(v -> v.transactions().stream()).map(t -> t.accountNumber()).distinct().sorted().collect(Collectors.toList());
             if (documentType.equals(Document.Type.E4)) {
                 AccountingPlan.Builder apBuilder = AccountingPlan.builder();
-                accountingPlan.getType().ifPresent(apBuilder::type);
-                apBuilder.accounts(accountingPlan.getAccounts().stream().filter(acc -> accountNumbers.contains(acc.getNumber()))
+                accountingPlan.optType().ifPresent(apBuilder::type);
+                apBuilder.accounts(accountingPlan.accounts().stream().filter(acc -> accountNumbers.contains(acc.number()))
                         .map(a -> {
-                            Account.Builder accBuilder = Account.builder(a.getNumber()).label(a.getLabel().orElse(null));
-                            if (a.getNumberAsInteger().get() < 3000) {
-                                Balance cb = calculateBalance(a.getNumber(), vouchers);
+                            Account.Builder accBuilder = Account.builder(a.number()).label(a.optLabel().orElse(null));
+                            if (a.optNumberAsInteger().get() < 3000) {
+                                Balance cb = calculateBalance(a.number(), vouchers);
                                 accBuilder.addClosingBalance(cb);
-                                int base = Math.abs(cb.getAmount().intValue()) + 100;
+                                int base = Math.abs(cb.amount().intValue()) + 100;
                                 int ob = RANDOM.nextInt(base);
                                 String negative = RANDOM.nextBoolean() ? "-" : "";
                                 accBuilder.addOpeningBalance(Balance.of(new BigDecimal(negative + ob + ".00"), 0));
-                                IntStream.range(1, noOfYears).forEachOrdered(y -> calculatePreviousBalance(accBuilder, a.getNumberAsInteger(), base, y));
+                                IntStream.range(1, noOfYears).forEachOrdered(y -> calculatePreviousBalance(accBuilder, a.optNumberAsInteger(), base, y));
                             } else {
-                                Balance res = calculateBalance(a.getNumber(), vouchers);
-                                int base = Math.abs(res.getAmount().intValue()) + 100;
+                                Balance res = calculateBalance(a.number(), vouchers);
+                                int base = Math.abs(res.amount().intValue()) + 100;
                                 accBuilder.addResult(res);
-                                IntStream.range(1, noOfYears).forEachOrdered(y -> calculatePreviousBalance(accBuilder, a.getNumberAsInteger(), base, y));
+                                IntStream.range(1, noOfYears).forEachOrdered(y -> calculatePreviousBalance(accBuilder, a.optNumberAsInteger(), base, y));
                             }
                             return accBuilder.apply();
                         }).collect(Collectors.toList()));
@@ -97,9 +97,9 @@ public class DocumentGenerator implements Generator {
     private Balance calculateBalance(String accountNumber, List<Voucher> vouchers) {
         int firstYear = 0;
         return Balance.of(new BigDecimal(vouchers.stream()
-                .flatMap(v -> v.getTransactions().stream())
-                .filter(t -> t.getAccountNumber().equals(accountNumber))
-                .mapToInt(t -> t.getAmount().intValue()).sum() + ".00"), firstYear);
+                .flatMap(v -> v.transactions().stream())
+                .filter(t -> t.accountNumber().equals(accountNumber))
+                .mapToInt(t -> t.amount().intValue()).sum() + ".00"), firstYear);
     }
 
     public static class Builder {
@@ -147,17 +147,17 @@ public class DocumentGenerator implements Generator {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         String companyType = RANDOM.nextInt(5) > 3 ? "E" : "AB";
         Document doc = DocumentGenerator.builder().setNoOfYears(2).build();
-        String name = doc.getMetaData().getCompany().getName();
-        String suffix = doc.getMetaData().getSieType().equals(Document.Type.I4) ? "SI" : "SE";
+        String name = doc.metaData().getCompany().name();
+        String suffix = doc.metaData().sieType().equals(Document.Type.I4) ? "SI" : "SE";
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
         File file = new File(System.getProperty("user.home") + "/SieGenerator/" + name + " - " + timestamp + "." + suffix);
         file.getParentFile().mkdirs();
         Sie4j.asSie(doc, file, Entity.CHARSET);
         ValidationResultDTO validate = Sie4j.validate(Files.readAllBytes(file.toPath()));
-        if (validate.getLogs().isEmpty()) {
+        if (validate.logs().isEmpty()) {
             System.out.println("Dokumentet \"" + file.getName() + "\" validerar");
         }
-        validate.getLogs().forEach(System.out::println);
+        validate.logs().forEach(System.out::println);
         System.out.println("File: " + file);
     }
 

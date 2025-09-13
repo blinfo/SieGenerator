@@ -52,7 +52,7 @@ class VoucherGenerator implements Generator {
                     .amount(at.amount().multiply(baseAmount).divide(templateTotal));
             return builder.apply();
         }).toList());
-        BigDecimal sum = new BigDecimal(result.stream().mapToDouble(t -> t.getAmount().doubleValue()).sum()).setScale(ROUNDING_SCALE, ROUNDING_MODE);
+        BigDecimal sum = new BigDecimal(result.stream().mapToDouble(t -> t.amount().doubleValue()).sum()).setScale(ROUNDING_SCALE, ROUNDING_MODE);
         if (!sum.equals(BigDecimal.ZERO.setScale(ROUNDING_SCALE, ROUNDING_MODE))) {
             result.add(Transaction.builder().accountNumber("3740").amount(sum.negate()).apply());
         }
